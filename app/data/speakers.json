@@ -1,0 +1,1037 @@
+[{
+    "id": 0,
+    "name": "Matt",
+    "surname": "Sullivan",
+    "company": "Google",
+    "title": "Developer advocate",
+    "bio": "Matt Sullivan is a developer advocate at Google where he helps people design and build cool health and fitness apps. He’s a big fan of conjuring up new ways to engage with users and motivate them to stay healthy using technologies like Google Fit, Android, Wear, Glass and many others to create novel fitness experiences. In previous lives he’s worked in varied fields such as cinema and theatrical software, bioinformatics and online collaboration tools.",
+    "thumbnailUrl": "matt-sullivan.jpg",
+    "rockstar": true,
+    "ribbon": [{
+        "abbr": "Google",
+        "title": "Googler",
+        "url": "https://google.com"
+    }],
+    "social": [{
+        "name": "Google Plus",
+        "link": "https://plus.google.com/+MattSullivan"
+    }]
+}, {
+    "id": 1,
+    "name": "Royi",
+    "surname": "Benyossef",
+    "company": "",
+    "title": "Android Developer",
+    "bio": "Royi Benyossef has been an Android developer since before the first Android phone existed and proceeded to work on Android based tablets and TVs long before they were launched by Google so you might say i'm an Android pioneer, as an avid Open source enthusiast i have been Organizing events as well as blogging and lecturing on Android related topics since 2008. Both of these facts have led to the fact that i am a Google developer expert since the program's inception which means that i'm not a Google employee but Google believes that i know what i'm talking about as well as how to say it.",
+    "thumbnailUrl": "royi-benyossef.jpg",
+    "rockstar": true,
+    "ribbon": [{
+        "abbr": "GDE",
+        "title": "Google Developer Expert",
+        "url": "https://developers.google.com/experts/"
+    }],
+    "social": [{
+        "name": "Google Plus",
+        "link": "https://plus.google.com/+RoyiBenyossef"
+    }, {
+        "name": "Facebook",
+        "link": "https://www.Facebook.com/Royi.Benyossef"
+    }]
+}, {
+    "id": 2,
+    "name": "Muge",
+    "surname": "Yilmaz",
+    "company": "Google",
+    "title": "Strategic Partner Manager",
+    "bio": "As a Strategic Partner Manager at Google, Müge works with app developers who use In App Advertising as a channel for monetising their audience; either exclusively or complementary to in app purchase (IAP). She focuses on mApp ad monetization, App UX, Play Store optimization & customer retention and App Analytics. Prior her role in Google, she spent 4 years in IBM Turkey Software Group both in sales and sales advisory positions. Müge earned her master’s degree in Business Information Systems from Bogazici University. She currently lives in Dublin but travels her hometown, Istanbul frequently.",
+    "thumbnailUrl": "muge-yilmaz.jpg",
+    "rockstar": true,
+    "ribbon": [{
+        "abbr": "Google",
+        "title": "Googler",
+        "url": "https://google.com"
+    }],
+    "social": [{
+        "name": "Twitter",
+        "link": "https://Twitter.com/mugeylmz_"
+    }]
+}, {
+    "id": 3,
+    "name": "Stephan",
+    "surname": "Linzner",
+    "company": "Google",
+    "title": "Senior Developer Platform Engineer Android",
+    "bio": "Stephan Linzner is Senior Developer Platform Engineer Android at Google. He is an experienced Software Engineer, which has been working on the Android platform for more than 6 years. He is the creator of the Android Support Test library, contributor to Espresso. His mission is to help Android developers to build better quality apps by driven by tests.",
+    "thumbnailUrl": "stephan-linzner.jpg",
+    "rockstar": true,
+    "ribbon": [{
+        "abbr": "Google",
+        "title": "Googler",
+        "url": "https://google.com"
+    }],
+    "social": [{
+        "name": "Google Plus",
+        "link": "https://plus.google.com/+StephanLinzner"
+    }, {
+        "name": "Twitter",
+        "link": "https://Twitter.com/onlythoughtwork"
+    }, {
+        "name": "Facebook",
+        "link": "https://www.Facebook.com/stephan.linzner"
+    }]
+}, {
+    "id": 4,
+    "name": "Xavier",
+    "surname": "Hallade",
+    "company": "Intel",
+    "title": "Developer Evangelist",
+    "bio": "Xavier is Developer Evangelist in Intel Software and Service Group in Paris, France. He is helping developers to improve their support for new hardware and technologies backed by Intel, with a focus on the Android NDK, 64-bit and dual-displays.",
+    "thumbnailUrl": "xavier-hallade.jpg",
+    "rockstar": true,
+    "ribbon": [{
+        "abbr": "GDE",
+        "title": "Google Developer Expert",
+        "url": "https://developers.google.com/experts/"
+    }],
+    "social": [{
+        "name": "Google Plus",
+        "link": "https://plus.google.com/+XavierHallade"
+    }, {
+        "name": "Twitter",
+        "link": "https://Twitter.com/ph0b"
+    }, {
+        "name": "GitHub",
+        "link": "https://GitHub.com/ph0b"
+    }, {
+        "name": "Linkedin",
+        "link": "https://www.Linkedin.com/in/xavierhallade/en"
+    }]
+}, {
+    "id": 5,
+    "name": "Tim",
+    "surname": "Messerschmidt",
+    "company": "PayPal",
+    "title": "Head of Developer Advocacy",
+    "bio": "As a long time mobile and web developer, Tim Messerschmidt channels his knowledge and experience as Braintree's Head of Developer Relation. He is passionate about startups and served as mentor at multiple incubators and accelerators.\nPrior to joining PayPal, Tim worked with Neofonie Mobile and Samsung focusing on several mobile projects. In his spare time, he leads and creates training classes in all sorts of developer-oriented topics, contributes to Open Source projects and is one of the authors of the Mobile Developer’s Guide to the Galaxy. In addition, he authored numerous articles published in print magazines.",
+    "thumbnailUrl": "tim-messerschmidt.jpg",
+    "rockstar": true,
+    "social": [{
+        "name": "Google Plus",
+        "link": "https://plus.google.com/+TimMesserschmidt"
+    }, {
+        "name": "Twitter",
+        "link": "https://Twitter.com/seraandroid"
+    }, {
+        "name": "GitHub",
+        "link": "https://GitHub.com/SeraphimSerapis"
+    }, {
+        "name": "Linkedin",
+        "link": "https://www.Linkedin.com/in/timmesserschmidt/en"
+    }]
+}, {
+    "id": 6,
+    "name": "Abhisek",
+    "surname": "Devkota",
+    "company": "Cyanogen Inc.",
+    "title": "Community Manager",
+    "bio": "Abhisek Devkota is the Community Manager and project manager for Cyanogen Inc. The CyanogenMod Project is an openÂ­source distribution that is community driven and created in collaboration with volunteers around the world, with the goal to allow users to truly own their phone through customization, functionality and enhanced security over their personal data.",
+    "thumbnailUrl": "abhisek-devkota.png",
+    "rockstar": true,
+    "social": [{
+        "name": "Google Plus",
+        "link": "https://plus.google.com/+AbhisekDevkota"
+    }, {
+        "name": "Twitter",
+        "link": "https://Twitter.com/ciwrl"
+    }, {
+        "name": "Linkedin",
+        "link": "https://www.Linkedin.com/pub/abhisek-devkota/73/25/416?trk=pub-pbmap"
+    }]
+}, {
+    "id": 7,
+    "name": "Wiebe",
+    "surname": "Elsinga",
+    "company": "Itude Mobile",
+    "title": "",
+    "bio": "Besides being a recent GDE for Android, Wiebe Elsinga is also an Android Developer with a passion for UX and design. Co-Founder/Organizer of the Google Developer Group Dutch Android User Group and working at Itude Mobile. Basically a EntrepreNerd.\nMainly focused on the design and development of mobile applications.",
+    "thumbnailUrl": "wiebe-elsinga.jpg",
+    "rockstar": true,
+    "ribbon": [{
+        "abbr": "GDE",
+        "title": "Google Developer Expert",
+        "url": "https://developers.google.com/experts/"
+    }],
+    "social": [{
+        "name": "Google Plus",
+        "link": "https://plus.google.com/+WiebeElsinga"
+    }, {
+        "name": "Twitter",
+        "link": "https://Twitter.com/welsinga"
+    }, {
+        "name": "GitHub",
+        "link": "https://GitHub.com/welsinga"
+    }, {
+        "name": "Linkedin",
+        "link": "https://nl.Linkedin.com/in/welsinga"
+    }]
+}, {
+    "id": 9,
+    "name": "Cyril",
+    "surname": "Mottier",
+    "company": "Capitaine Train",
+    "title": "Mobile Software Engineer",
+    "bio": "Cyril Mottier is Mobile Software Engineer at Capitaine Train and Android Google Developer Expert. Passionate about technology and design, Cyril is an avid lover of Android and a multi-skilled engineer. He is actively involved in the Android community and shares his passion writing blog posts, creating open source librairies and giving talks. His motto: Do less, but do it insanely great.",
+    "thumbnailUrl": "cyril-mottier.jpg",
+    "rockstar": true,
+    "ribbon": [{
+        "abbr": "GDE",
+        "title": "Google Developer Expert",
+        "url": "https://developers.google.com/experts/"
+    }],
+    "social": [{
+        "name": "Google Plus",
+        "link": "https://plus.google.com/+CyrilMottier"
+    }, {
+        "name": "Twitter",
+        "link": "https://Twitter.com/cyrilmottier"
+    }, {
+        "name": "GitHub",
+        "link": "https://GitHub.com/cyrilmottier"
+    }, {
+        "name": "Linkedin",
+        "link": "https://www.Linkedin.com/in/cyrilmottier"
+    }]
+}, {
+    "id": 10,
+    "name": "Prajyot",
+    "surname": "Mainkar",
+    "company": "Androcid Media Pvt. Ltd.",
+    "title": "Director",
+    "bio": "Mr. Prajyot Mainkar is the director at Androcid Media Pvt. Ltd, an app engineering firm based out of India. He is the manager of Google's Developer Group - GAUG ( Goa Android users Group) - one of the oldest android developer community in India. Being android developer himself, he has been active in the Android community and been assisting Android developers build new, compelling and well-received apps. He has spoken at several conferences including Droidcon India, GDG DevFest, Silicon India Mobile Conference and many more.",
+    "thumbnailUrl": "prajyot-mainkar.jpg",
+    "rockstar": true,
+    "ribbon": [{
+        "abbr": "GDG",
+        "title": "Google Developer Group",
+        "url": "https://developers.google.com/groups/"
+    }],
+    "social": [{
+        "name": "Google Plus",
+        "link": "https://plus.google.com/+prajyotmainkar"
+    }, {
+        "name": "Twitter",
+        "link": "https://Twitter.com/prajyotm"
+    }, {
+        "name": "Linkedin",
+        "link": "https://www.Linkedin.com/in/prajyotm"
+    }]
+}, {
+    "id": 11,
+    "name": "Orhan",
+    "surname": "Obut",
+    "company": "Rocket-Internet",
+    "title": "Android Developer",
+    "bio": "Orhan Obut is android developer at Rocket-Internet in Berlin. Since he is enthusiastic about android development and open-source, he is trying to learn as much as possible on these topics. He is also a big fan of open-source and constantly supports it. He has been worked on various projects from m-banking applications to m-commerce applications.  He always aims to use the software principles, the best practices and share the knowledge with the community.",
+    "thumbnailUrl": "orhan-obut.jpg",
+    "rockstar": true,
+    "social": [{
+        "name": "Twitter",
+        "link": "https://Twitter.com/orhanobut"
+    }, {
+        "name": "GitHub",
+        "link": "https://GitHub.com/orhanobut"
+    }, {
+        "name": "Linkedin",
+        "link": "https://www.Linkedin.com/in/orhanobut"
+    }]
+}, {
+    "id": 12,
+    "name": "Hugo",
+    "surname": "Visser",
+    "company": "Little Robots",
+    "title": "Android Developer",
+    "bio": "Hugo has over 15 years of experience as a software engineer, ranging from server side to desktop and from web to mobile. Since the original announcement he closely follows the developments of the Android platform which resulted in his first app in 2009, Rainy Days, which has since been downloaded nearly 1.000.000 times worldwide. He runs his own company Little Robots that focuses on apps and other clever uses of the Android platform. Hugo is Google Developer Expert for Android and an organiser of The Dutch Android User Group, where Android professionals can meet and share knowledge with each other during monthly meetings.",
+    "thumbnailUrl": "hugo-visser.jpg",
+    "ribbon": [{
+        "abbr": "GDE",
+        "title": "Google Developer Expert",
+        "url": "https://developers.google.com/experts/"
+    }],
+    "rockstar": true,
+    "social": [{
+        "name": "Twitter",
+        "link": "https://Twitter.com/botteaap"
+    }, {
+        "name": "GitHub",
+        "link": "https://GitHub.com/hvisser"
+    }, {
+        "name": "Linkedin",
+        "link": "https://www.Linkedin.com/in/visserh"
+    }]
+}, {
+    "id": 13,
+    "name": "Hasan",
+    "surname": "Hosgel",
+    "company": "ImmobilienScout24",
+    "title": "Android Developer",
+    "bio": "Hasan Hoşgel is a dedicated Android developer about ten years of professional programming of which more than three years have been in apps development.Continuous improvement of the architecture and also quality are his interest. He is also co-organizer of the “GDG Berlin Android”. Since 2006 Hasan working for ImmobilienScout24 as a Senior Developer.",
+    "thumbnailUrl": "image10-150x150.jpg",
+    "rockstar": true,
+    "ribbon": [{
+        "abbr": "GDG",
+        "title": "GDG Berlin Android",
+        "url": "https://developers.google.com/groups/"
+    }],
+    "social": [{
+        "name": "Twitter",
+        "link": "https://Twitter.com/alosdev"
+    }, {
+        "name": "GitHub",
+        "link": "https://GitHub.com/alosdev"
+    }, {
+        "name": "Linkedin",
+        "link": "http://de.Linkedin.com/in/hosgel/en"
+    }]
+}, {
+    "id": 14,
+    "name": "Paresh",
+    "surname": "Mayani",
+    "company": "InfoStretch Solutions",
+    "title": "Senior Software Engineer",
+    "bio": "Paresh is a mobile application developer with 5 years of apps development experience. Currently he is Senior Software Engineer at InfoStretch Solutions Pvt. Ltd, India. He has been exploring android development since Android 1.5. His passion for Google Technologies brought him to lead Google Developers Group Ahmedabad, India. He is very active in supporting Android developers community in India and worldwide be it through his tech blog “TechnoTalkative” http://www.technotalkative.com/ (published >150 articles) or through StackOverflow http://stackoverflow.com/users/379693/paresh-mayani (holder of >50,000 reputation).",
+    "thumbnailUrl": "paresh2.jpg",
+    "rockstar": true,
+    "ribbon": [{
+        "abbr": "GDG",
+        "title": "Google Developer Group Ahmedabad",
+        "url": "https://developers.google.com/groups/"
+    }],
+    "social": [{
+        "name": "Twitter",
+        "link": "https://Twitter.com/pareshmayani"
+    }, {
+        "name": "GitHub",
+        "link": "https://GitHub.com/PareshMayani"
+    }, {
+        "name": "Linkedin",
+        "link": "https://www.Linkedin.com/in/pareshmayani"
+    }]
+}, {
+    "id": 15,
+    "name": "Martin",
+    "surname": "Liersch",
+    "company": "papierprintit GmbH",
+    "title": "Android Developer",
+    "bio": "I started developing Android apps when I got my first Android device (Motorola Milestone). Now I have > 50 apps published on the Play Store, some with > 1 million downloads.",
+    "thumbnailUrl": "martin.jpg",
+    "rockstar": true,
+    "social": [{
+        "name": "Twitter",
+        "link": "https://Twitter.com/goddchen"
+    }, {
+        "name": "GitHub",
+        "link": "https://GitHub.com/Goddchen"
+    }, {
+        "name": "Linkedin",
+        "link": "https://www.Linkedin.com/pub/martin-liersch/17/461/35a"
+    }]
+}, {
+    "id": 16,
+    "name": "Andreu",
+    "surname": "Ibanez",
+    "company": "GDG Lleida",
+    "title": "GDG Lead organizer",
+    "bio": "Andreu Ibanez is GDG Lleida Founder and lead organizer, Member of GDG Spain, Google Glass Explorer, Mentor Google Summer of Code, Founder Google Liquid Galaxy LAB, Founder Lleida Drone, and for the living Project Manager at Ponent 2002, a SMB located in Lleida, SPain, specyalized in IT R+D+i projects.",
+    "thumbnailUrl": "andreu.jpg",
+    "rockstar": true,
+    "ribbon": [{
+        "abbr": "GDG",
+        "title": "Google Developer Group Lledia",
+        "url": "https://developers.google.com/groups/"
+    }],
+    "social": [{
+        "name": "Twitter",
+        "link": "https://Twitter.com/andreuibanez"
+    }, {
+        "name": "Google Plus",
+        "link": "https://plus.google.com/113812464225961962994"
+    }]
+}, {
+    "id": 17,
+    "name": "Oleh",
+    "surname": "Zasadnyy",
+    "company": "Optigra",
+    "title": "Software Engineer",
+    "bio": "Oleh is a Java developer and Google Developers Group Lviv manager. Besides that he is interested in web development, design and community management.",
+    "thumbnailUrl": "oleh.jpg",
+    "rockstar": true,
+    "ribbon": [{
+        "abbr": "GDG",
+        "title": "Google Developer Group Lviv",
+        "url": "https://developers.google.com/groups/"
+    }],
+    "social": [{
+        "name": "Google Plus",
+        "link": "https://www.google.com/+OlehZasadnyy"
+    }, {
+        "name": "GitHub",
+        "link": "https://GitHub.com/ozasadnyy"
+    }, {
+        "name": "Linkedin",
+        "link": "https://www.Linkedin.com/in/ozasadnyy"
+    }]
+}, {
+    "id": 18,
+    "name": "Turhan",
+    "surname": "Oz",
+    "title": "Entrepreneur and Developer",
+    "bio": "Turhan OZ (@TurhanOz) is a serial entrepreneur as well as a highly convinced developer currently located in Paris, France. His entire effort and energy go to effectively bring value to people by creating high quality B2B and B2C android applications. Although having a solid technical background, he is always looking for new practices and technologies to improve himself, a life long quest for anyone taking development for serious. Highly convinced by the IoT era, he also creates connected devices to brave time and space constraints.",
+    "thumbnailUrl": "turhan.jpeg",
+    "rockstar": true,
+    "social": [{
+        "name": "Twitter",
+        "link": "https://Twitter.com/TurhanOz"
+    }]
+}, {
+    "id": 19,
+    "name": "Mustafa",
+    "surname": "Tan",
+    "title": "General Manager",
+    "company": "OBSS",
+    "bio": "Graduated from ITU Industrial Engineering. Primarily in the IT world, including Finance and Telecom, he took place in various enterprise software development project since 2000. He has been General Manager of OBSS Mobile as co-founder since 2012 and manager of OBSS Robotics that is founded in 2015.",
+    "thumbnailUrl": "mtan.png",
+    "rockstar": true,
+    "social": null
+}, {
+    "id": 20,
+    "name": "Naci",
+    "surname": "Dai",
+    "title": "Chief Scientist and Founder",
+    "company": "eteration",
+    "bio": "Naci is the Chief Scientist and founder of eteration a.s. He is an object mentor and an educator. Naci is the founder of ObjectLearn and in 2000 wrote ObjectWeb Lomboz™, an Open Source Software for JavaEE development. He is an active contributor to open source, the ObjectWeb Consortium and the Eclipse Foundation. Prior to eteration, Naci was with BEA Systems Inc. and The Object People as the Managing Director of Professional Services. With a strong foundation in Applied Engineering and Computational Physics, Naci received his Ph.D. from Carleton University, Ottawa, Canada. He is a member of the faculty at Sabanci University where he teaches object technologies, web development and distributed computing. Eteration is a member of the ObjectWeb Consortium and a member of the Eclispe Web Tools Platform Project (WTP), Project Management Committee. Naci is a member of the WTP PMC, representing ObjectWeb, and leads the Eclipse Java Standard Tools subproject. eteration is also a provider of tools, developer resources and server infrastructures to WTP project and contributes source training tools and courseware to the Eclipse Community Education Project (ECESIS).",
+    "thumbnailUrl": "naci.jpeg",
+    "rockstar": true,
+    "social": null
+}, {
+    "id": 55,
+    "name": "Murat",
+    "surname": "Yener",
+    "company": "Intel",
+    "title": "Android Developer",
+    "bio": "Murat Yener is a code geek, open source committer, Java Champion and GDE on Android, working at Intel as an Android developer. He is the author of Professional Java EE Design Patterns book from Wiley. He has extensive experience with developing Java, web, JavaEE, and OSGi applications, in addition to teaching courses and mentoring. An Eclipse committer and one of the initial committers of the Eclipse Libra project.\n\nMurat has been a user group leader at GDG Istanbul since 2009, organizing, participating, and speaking at events. He is also a regular speaker at JavaOne, EclipseCon, and Devoxx conferences.",
+    "thumbnailUrl": "MuratYener.jpg",
+    "rockstar": true,
+    "ribbon": [{
+        "abbr": "GDE",
+        "title": "Google Developer Expert",
+        "url": "https://developers.google.com/experts/"
+    }],
+    "social": [{
+        "name": "Google Plus",
+        "link": "https://google.com/+MuratYener"
+    }, {
+        "name": "Twitter",
+        "link": "https://Twitter.com/yenerm"
+    }, {
+        "name": "GitHub",
+        "link": "https://GitHub.com/yenerm"
+    }, {
+        "name": "site",
+        "link": "http://www.devchronicles.com/"
+    }]
+}, {
+    "id": 56,
+    "name": "Said Tahsin",
+    "surname": "Dane",
+    "title": "Android Developer",
+    "company": "VNGRS",
+    "bio": "Google Developer Expert on Android. Android Developer who also cares about UX a lot. Co-organizer at GDG Istanbul. Google Glass Explorer. Hackathon Lover.",
+    "thumbnailUrl": "SaidTahsinDane.jpg",
+    "ribbon": [{
+        "abbr": "GDE",
+        "title": "Google Developer Expert",
+        "url": "https://developers.google.com/experts/"
+    }],
+    "social": [{
+        "name": "Google Plus",
+        "link": "https://plus.google.com/+SaidTahsinDane"
+    }, {
+        "name": "Twitter",
+        "link": "https://Twitter.com/tasomaniac"
+    }, {
+        "name": "GitHub",
+        "link": "https://GitHub.com/tasomaniac"
+    }, {
+        "name": "site",
+        "link": "http://www.tasomaniac.com"
+    }]
+}, {
+    "id": 21,
+    "name": "Akın",
+    "surname": "Kaldıroğlu",
+    "title": "Software Engineering and Java Consultant",
+    "bio": "Akin Kaldiroglu is a Software Engineering and Java consultant based in İstanbul Turkey. He has been involved in many enterprise projects in different roles since mid 90s. He started using C and C++ and kept using Java since its arrival. He loves developing software and writing code in Java. He is a fan of clean and object-oriented code. He shares what he discovers at his blog at http://www.javaturk.org and gives professional training to developers. He can be reached at akinjavaturk.org or @kaldiroglu.",
+    "thumbnailUrl": "akinkaldiroglu.jpg",
+    "rockstar": true,
+    "social": [{
+        "name": "Twitter",
+        "link": "https://Twitter.com/kaldiroglu"
+    }]
+}, {
+    "id": 22,
+    "name": "Can",
+    "surname": "Elmas",
+    "title": "Software Development Manager",
+    "company": "Monitise",
+    "bio": "Can Elmas is the Software Development Manager at Monitise, based out of Istanbul. Since starting his tenure as an intern 6 years ago at Pozitron (acquired in 2014 by Monitise), Can now heads the Istanbul-based Android and Windows development team – over 25 engineers recruited from the top universities in Turkey. Under Can’s leadership, this team has led cutting-innovation for a myriad of mobile banking, payments and commerce solutions. In addition to overseeing the development process, Can advises the team on Android standards and best practices, while providing personal mentorship. Can led the Monitise team responsible for launching Turkey’s first mobile developer bootcamp, CodeCamp Istanbul, in 2014. Throughout the 1.5 week CodeCamp program, Can facilitated a rigorous courseload of subjects spanning topics across Android design and development best practices, garnering attention from leading media including Hurriyet and Webrazzi. Through this and other initiatives outside of the office, including roles as a speaker at Android Developer Days, teacher for Galarasaray’s Computer Engineering curriculum, and lecturer at various Google-related workshops, Can has had a tremendous impact on the upskilling of developers across Turkey’s Android ecosystem as both a lecturer as well as a hands-on mentor. After graduating from Saint-Joseph French High School, Can completed his Bachelor’s Degree in Software Engineering at the prestigious Galatasaray University.",
+    "thumbnailUrl": "canelmas.jpg",
+    "rockstar": true,
+    "social": null
+}, {
+    "id": 23,
+    "name": "Selim",
+    "surname": "Ekizoğlu",
+    "title": "Software Developer",
+    "company": "ThoughtWorks",
+    "bio": "Selim Ekizoglu began his career creating browser based 3D worlds in 2008. In 2010, he joined a Palo Alto based startup where he initially became a full stack developer and gained experience in web and mobile platforms. In 2014 he joined Thoughtworks Turkey where he is focusing on continuous deployment and devops.",
+    "thumbnailUrl": "selimekizoglu.jpg",
+    "rockstar": true,
+    "social": null
+}, {
+    "id": 24,
+    "name": "Alper",
+    "surname": "Mermer",
+    "company": "ThoughtWorks",
+    "title": "Senior QA Consultant",
+    "bio": "Graduating from Hacettepe University Computer Science and Engineering, Alper Mermer has been testing in both Turkish and International companies for more than 7 years. Having experience in all the levels of testing life cycles in TELCO, Finance and E-Commerce sectors, he is now a Senior QA Consultant at THoughtWorks Turkey.",
+    "thumbnailUrl": "alpermermer.jpg",
+    "rockstar": true,
+    "social": null
+}, {
+    "id": 25,
+    "name": "Redi",
+    "surname": "Gokaj",
+    "company": "Codemodeon",
+    "title": "Co-Founder, Innovation and Technology Director at Codemodeon",
+    "bio": "Previously, Redi has been working in a wide range of software products. He is an experienced professional on airline software, e-commerce, mobile applications, cloud-computing and interactive game development. Now he is Co-Founder, Innovation and Technology Director at Codemodeon. He gets to design and produce interactive games. His mission is to produce great experiences that entertain people. Mainly he is focused on Virtual Reality applications that nowadays are becoming very popular.",
+    "thumbnailUrl": "redi.jpg",
+    "rockstar": true,
+    "social": null
+}, {
+    "id": 26,
+    "name": "Kenan",
+    "surname": "Sevindik",
+    "title": "Consultant",
+    "company": "Harezmi",
+    "bio": "Kenan Sevindik is specialized on architecting and developing enterprise applications using various Java technologies for more than 15 years. His experience with Java dates back to 1998 in which he started developing Java applets for online education programs. He has been working with various enterprise Java frameworks, such as Spring Application Framework, Spring Security Framework, Hibernate Persistence Framework since their early days. Currently he develops enterprise software, gives trainings, mentoring and consultancy services about Java, OOP, AOP, Spring, Spring Security and Hibernate all over the world. He is regularly invited to give public speeches about his experiences in various conferences and organizations. He is also co-author of 'Beginning Spring' book, which was published by Wiley Publishing in February 2015. He has bachelor degree in Computer Engineering. You can reach at his technical writings from http://blog.harezmi.com.tr.",
+    "thumbnailUrl": "kenansevindik.png",
+    "rockstar": true,
+    "social": null
+}, {
+    "id": 27,
+    "name": "Mateusz",
+    "surname": "Herych",
+    "title": "Android Engineer",
+    "bio": "Mateusz works as an Android Engineer at Base CRM where he uses his android-abracadabras to make enterprise software users 10 times more productive. Apart from that he's a Google Developer Expert for Android and a GDG Kraków co-organizer.",
+    "thumbnailUrl": "mateusz.png",
+    "rockstar": true,
+    "ribbon": [{
+        "abbr": "GDE",
+        "title": "Google Developer Expert",
+        "url": "https://developers.google.com/experts/"
+    }],
+    "social": null
+}, {
+    "id": 28,
+    "name": "Bruce C ",
+    "surname": "Jenkins",
+    "company": "HP",
+    "title": "AppSec Program Strategist",
+    "bio": "Bruce C Jenkins leads HP Fortify’s security program and works regularly with customers on Software Security Assurance (SSA) program design, measurement and reporting.  Since 2007 he has been building SSA solutions and collecting data on security assessments across all industry sectors.  Bruce is a 28-year US Air Force veteran with experience in managing development and operations, and he has held CISO-, CSO- and CIO-equivalent positions.  Bruce is a CISSP, CSSLP and CISM, and he holds a BS in computer science and MS in management science.",
+    "thumbnailUrl": "bcjenkins.png",
+    "rockstar": true,
+    "social": null
+}, {
+    "id": 29,
+    "name": "Barış",
+    "surname": "Yesugey",
+    "company": "Google",
+    "title": "Developer Relations",
+    "bio": "As an engineer who is in love with the coolest new technology, I thrive by connecting to other developers who share similar passions. My team is behind all the rich, technical content on developers.google.com<br><br>I act as an advocate for third party developers’ needs within Google and passionate evangelists for Google technologies in the outside world. I love connecting with other developers and partners; people who enjoy teaching, speaking or writing about cutting-edge technologies.<br><br>By working closely with third party developers who are building applications and businesses that showcase Google’s developer platforms, I grow and support the developer community, teaching and supporting developers around MENA region.",
+    "thumbnailUrl": "BarisYesugey.jpg",
+    "rockstar": true,
+    "ribbon": [{
+        "abbr": "Google",
+        "title": "Googler",
+        "url": "https://google.com"
+    }],
+    "social": [{
+        "name": "Linkedin",
+        "link": "https://tr.Linkedin.com/in/barisyesugey"
+    }]
+}, {
+    "id": 30,
+    "name": "Alperen",
+    "surname": "Eraslan",
+    "company": "STM",
+    "title": "Expert Software Developer",
+    "bio": "Alperen Eraslan is a mobile and web application developer with 2 years of app development experience and 3 years of experience in software development in defense industry. His main focus area is iOS application development. Currently he is an expert software engineer at S.T.M. A.Ş.",
+    "thumbnailUrl": "alperen.png",
+    "rockstar": true,
+    "social": null
+}, {
+    "id": 31,
+    "name": "Doruk",
+    "surname": "Pancaroğlu",
+    "company": "STM",
+    "title": "Expert Software Developer",
+    "bio": "Doruk Pancaroğlu is born in 1989. He graduated from Sabanci University in 2010, majoring in Computer Engineering. In 2014, he completed his graduate studies at TOBB ETU, again majoring in Computer Engineering. He is working as an Expert Software Engineer at STM A.S. since 2012.",
+    "thumbnailUrl": "doruk.png",
+    "rockstar": true,
+    "social": null
+}, {
+    "id": 32,
+    "name": "Vitaliy",
+    "surname": "Zasadnyy",
+    "title": "Senior Unity 3D Developer",
+    "company": "GetSocial",
+    "bio": "Mobile developer, Google Developers Group and Gamedev Community Lviv co-founder. Interested in GameDev, Android, iOS, Google App Engine and community management. Used to work for enterprise giants like as well as for product companies and startups. Nowadays leading Unity 3D development at GetSocial. TEDx speaker.",
+    "thumbnailUrl": "vitalik.jpg",
+    "rockstar": true,
+    "ribbon": [{
+        "abbr": "GDG",
+        "title": "Google Developer Group Lviv",
+        "url": "https://developers.google.com/groups/"
+    }],
+    "social": null
+}, {
+    "id": 33,
+    "name": "Haluk",
+    "surname": "Altunel",
+    "title": "Dr. Program Manager",
+    "company": "Softtech",
+    "bio": "Program Manager at Softtech and Part Time Faculty at METU Informatics Institute.",
+    "thumbnailUrl": "haluk.jpg",
+    "rockstar": true,
+    "social": null
+}, {
+    "id": 34,
+    "name": "Büşra",
+    "surname": "Deniz",
+    "company": "Netaş",
+    "title": "Scrum Master - Mobile Software Developer",
+    "bio": "Busra Deniz is a Software Engineer who has a keen interest in developing high-quality software by applying agile principles and methodologies, especially Scrum. She is a Certificated Scrum Master and mobile engineer in Netas. Currently, working on an international project that provides iOS and Android SDKs those allow other programmers to develop their applications, which are capable of voice call, video call and IM using WebRTC. Besides being co-organizer in two different community, Google Developer Group and WomenTechMakers İstanbul, she enjoys voluntarily organizing and speaking at developer events. Also, she believes in sharing knowledge and collaborating with the other people through these events, will come hand in hand with innovation and new perspectives. She always loves being part of a team and thinks that individual commitment to a team is the key to success. As a result of that she is a big fan of agile methodologies including Scrum, TDD and XP. Except agile, she is also got excited almost every new technology in mobile platforms. And, as a software engineer, her goal is delivering software with high quality and robust architecture. In order to achieve that she highly relies on unit testing and mobile test automation.",
+    "thumbnailUrl": "busra.png",
+    "rockstar": true,
+    "ribbon": [{
+        "abbr": "GDG",
+        "title": "Google Developer Group Istanbul",
+        "url": "https://developers.google.com/groups/"
+    }],
+    "social": [{
+        "name": "site",
+        "link": "http://www.busradeniz.com"
+    }, {
+        "name": "Linkedin",
+        "link": "https://tr.Linkedin.com/in/busradeniz"
+    }, {
+        "name": "Twitter",
+        "link": "https://Twitter.com/busradeniz"
+    }]
+}, {
+    "id": 35,
+    "name": "Hüseyin",
+    "surname": "Bodur",
+    "title": "Research Assistant",
+    "bio": "He is a research assistant at Duzce University. He earned his master’s degree in Computer Engineering from Pamukkale University. He has been an android developer for three years and a member of GDG Duzce.",
+    "thumbnailUrl": "huseyin.jpg",
+    "rockstar": true,
+    "ribbon": [{
+        "abbr": "GDG",
+        "title": "Google Developer Group Düzce",
+        "url": "https://developers.google.com/groups/"
+    }],
+    "social": null
+}, {
+    "id": 36,
+    "name": "Onur",
+    "surname": "Kayabaşı",
+    "title": "Mobile Software Developer",
+    "company": "Hepsiburada",
+    "bio": "Onur has been developing Android applications since 2011. After developing apps for different sectors from media to shopping in mobile agencies, in 2014 he has joined to mobile application development team of Hepsiburada.com, which is the biggest online e-commerce company in Turkey .",
+    "thumbnailUrl": "onur.jpg",
+    "rockstar": true,
+    "social": null
+}, {
+    "id": 37,
+    "name": "Gökberk",
+    "surname": "Ergün",
+    "title": "Mobile Software Developer",
+    "company": "Hepsiburada",
+    "bio": "Graduated from Bogazici university at 2010. Worked in several software projects at Turkcell,n11,tmob as software developer. Working at Hepsiburada Android app since 2014 November.",
+    "thumbnailUrl": "gokberk.jpg",
+    "rockstar": true,
+    "social": null
+}, {
+    "id": 39,
+    "name": "Semih",
+    "surname": "Yağcıoğlu",
+    "title": "Senior Software Engineer",
+    "company": "MITS",
+    "bio": "Semih is a software developer. He likes to solve problems and get things done. He is a PhD student in Computer Science at Hacettepe University with a focus on Computer Vision and works at MITS on mobile and web.",
+    "thumbnailUrl": "semih.jpg",
+    "rockstar": true,
+    "social": [{
+        "name": "site",
+        "link": "http://www.semihyagcioglu.com"
+    }, {
+        "name": "Twitter",
+        "link": "https://Twitter.com/semihyagcioglu"
+    }, {
+        "name": "Linkedin",
+        "link": "https://www.Linkedin.com/in/semih"
+    }]
+}, {
+    "id": 38,
+    "name": "Kaan",
+    "surname": "Mamikoglu",
+    "title": "Mobile Developer",
+    "company": "mobiwise",
+    "bio": "I am currently a mobile developer at mobiwise and a senior in Computer Engineering major at the Anadolu University. I have developed or helped to develop some apps that is published on mobile app stores, both Google Play Store and Apple’s App Store. I am also co-organizer of the Google Developer Group (GDG) Eskişehir.",
+    "thumbnailUrl": "kaan.jpg",
+    "rockstar": true,
+    "ribbon": [{
+        "abbr": "GDG",
+        "title": "Google Developer Group Eskişehir",
+        "url": "https://developers.google.com/groups/"
+    }],
+    "social": null
+}, {
+    "id": 52,
+    "name": "Aygul",
+    "surname": "Zagidullina",
+    "title": "Head of Community Management & Support",
+    "bio": "I'm absolutely passionate about making our world a better place through technology and science. I'm community manager of two Google Developer Groups (GDGs) in Germany and Russia, Google Top Contributor (TC), active member of the global Women Techmakers (WTM) community, translator, quantum chemist, classically trained musician as well as MOOC and citizen science enthusiast. When not working or contributing to the community, I enjoy traveling, fitness, learning new languages, and listening to good music.",
+    "thumbnailUrl": "aygul.jpg",
+    "rockstar": true,
+    "social": null
+}, {
+    "id": 40,
+    "name": "Murat Can",
+    "surname": "Bur",
+    "title": "Mobile Developer",
+    "company": "mobiwise",
+    "bio": "Currently developing mobile applications for Android and creating awesome stuffs for mobiwise. He also loves blogging",
+    "thumbnailUrl": "muratcan.jpg",
+    "rockstar": true,
+    "ribbon": [{
+        "abbr": "GDG",
+        "title": "Google Developer Group Eskişehir",
+        "url": "https://developers.google.com/groups/"
+    }],
+    "social": null
+}, {
+    "id": 41,
+    "name": "Yunus",
+    "surname": "Ayyıldız",
+    "title": "Indie Game Developer",
+    "company": "gamebra.in",
+    "bio": "I was born in 1986 in Trabzon, Turkey. Now I’m living in Ankara. I graduated at Middle East Technical University where I am currently pursuing my MBA in Game Technologies. I’ve been developing games for about three years now and I am publishing them under the name gamebra.in.",
+    "thumbnailUrl": "yunus.jpg",
+    "rockstar": true,
+    "social": null
+}, {
+    "id": 42,
+    "name": "Serdar",
+    "surname": "Altan",
+    "title": "Technology Editor",
+    "bio": "I'm studying Maths and Computer Science at Eskişehir Osmangazi University. I'm also working at technology websites called Silikon Vadisi and Teknolo as an editor. I'm particularly interested in advanced technologies like internet of things, virtual reality and augmented reality. As well, I'm working on growth hacking.",
+    "thumbnailUrl": "serdar.png",
+    "rockstar": true,
+    "social": null
+}, {
+    "id": 43,
+    "name": "Kaan",
+    "surname": "Erkoç",
+    "title": "Software Engineer",
+    "bio": "Kaan Erkoç is student at Departmant of Electric and Electrical Engineering at Hacettepe University, GDG Ankara group member and software engineer at Nurol Technologies Inc. He has been interested in Android technologies, designing embedded-systems and architecture specific low-level programming for long time. He has developed so many applications based on graphics and performance by using OpenGL and CUDA frameworks. Now he is working on development of virtual reality applications.",
+    "thumbnailUrl": "kaanerkoc.jpg",
+    "rockstar": true,
+    "social": null
+}, {
+    "id": 44,
+    "name": "Orhun Mert",
+    "surname": "Şimşek",
+    "title": "CEO / Mobile Developer",
+    "company": "4pps",
+    "bio": "Mert works on Android since 2011 and he loves it. He is one of the older members of GDG Ankara(Google Developer Groups) He arranged lots of seminars, workshops etc. and had been speaker at them also. He co-founded 4pps with his 3 other friends in 2014. Mert is CEO and Mobile(especially iOS) developer at 4pps but he still loves to speak about Android and other technology stuff.",
+    "thumbnailUrl": "orhunmert.png",
+    "rockstar": true,
+    "ribbon": [{
+        "abbr": "GDG",
+        "title": "Google Developer Group Ankara",
+        "url": "https://developers.google.com/groups/"
+    }],
+    "social": null
+}, {
+    "id": 45,
+    "name": "Doğukan",
+    "surname": "Ergüner",
+    "title": "Web Developer",
+    "bio": "Born in 1988 – İzmir, and working with server-side and client-side development. Have huge experience in HTML, CSS, PHP, MySQL, JS. Furthermore, have knowledge about Node.js, Socket.io, CoffeeServer and Codeigniter, CakePHP, jQuery, Bootstrap. He is improving himself about internet technolologies and server/client communications.",
+    "thumbnailUrl": "dogukan.png",
+    "rockstar": true,
+    "social": null
+}, {
+    "id": 46,
+    "name": "Barış",
+    "surname": "Erdem",
+    "title": "IT Manager",
+    "company": "Koza",
+    "bio": "Anadolu University Business Administration degree. Koza Publishing Inc. since 2009. I also work as an IT Manager. Unity, Flash, Visual Design, Web technologies among my interests.",
+    "thumbnailUrl": "bariserdem.jpg",
+    "rockstar": true,
+    "social": null
+}, {
+    "id": 47,
+    "name": "Özcan",
+    "surname": "Akkoca",
+    "title": "Software Developer",
+    "bio": "I was born in Istanbul. Karabük University 3rd Year Computer Engineering student. I worked as an iOS developer company in iDB. I am a game designer for 2 games which are “Car City Parking 3D” and “Vale Parking”. I have been making simple applications with “Cocos2D-X” Game Engine. I have made a training set which is “Hayalinizdeki IOS 8 Uygulamasını Swift ile Geliştirin” Udemy. Also I have been developing applications with Swift for IOS platform.",
+    "thumbnailUrl": "ozkan.jpg",
+    "rockstar": true,
+    "social": null
+}, {
+    "id": 48,
+    "name": "Burak",
+    "surname": "Çakıl",
+    "title": "Cloud Solutions Consultant",
+    "company": "IBM",
+    "bio": " Graduated from Yıldız Technical University Computer Engineering department.Continues to MSc in same department. Working at IBM since 2007 and since 2013 he is Cloud Solutions Consultant.",
+    "thumbnailUrl": "burakcakil.jpg",
+    "rockstar": true,
+    "social": null
+}, {
+    "id": 49,
+    "name": "Çiğdem",
+    "surname": "Çavdaroğlu",
+    "company": "KoçSistem",
+    "title": "Analysis and Design Leader",
+    "bio": "Çiğdem Çavdaroğlu graduated from Yıldız Technical University, Mathematics Engineering Department in  2003. She received her M.Sc. degree and Ph.D. degree from Yıldız Technical University in Remote Sensing and Geographic Information Systems in 2006 and 2013. Her research interests include image processing, medical image processing, special algorithms about image processing problems, human-computer interaction and augmented reality. Currently she is working as R&D Analysis and Design Leader at KoçSistem.",
+    "thumbnailUrl": "cigdem.jpg",
+    "rockstar": true,
+    "social": null
+}, {
+    "id": 50,
+    "name": "Kerem",
+    "surname": "İnceçayır",
+    "title": "Founder of SOFNOD",
+    "company": "SOFNOD",
+    "bio": "Born in Ankara in 1980. After graduating from Hacettepe University Hydrogeological Engineering in 2003, starting with geographical information systems (GIS) development, his software development career is going on with both desktop and web based systems development. Nowadays, with his own company SOFNOD, he manages projects for GIS, web based systems and mobile systems. His interests are information systems, big data, statistical analysis, intelligent systems and IOT. He has been a member of GDG Ankara since 2013.",
+    "thumbnailUrl": "kerem.png",
+    "rockstar": true,
+    "ribbon": [{
+        "abbr": "GDG",
+        "title": "Google Developer Group Ankara",
+        "url": "https://developers.google.com/groups/"
+    }],
+    "social": null
+}, {
+    "id": 51,
+    "name": "Burcu",
+    "surname": "Türkmen",
+    "title": "Mobile Software Developer",
+    "bio": "She got bachelor degree from Anadolu University as a Computer Engineer in 2012 . She has an active role in GDG Eskişehir Community and she is one of the co-organizers at WTM  Eskişehir Community. She has began her career as an Android Developer and she also developes iOS Applications. ",
+    "thumbnailUrl": "burcu.jpg",
+    "rockstar": true,
+    "ribbon": [{
+        "abbr": "GDG",
+        "title": "Google Developer Group Eskişehir",
+        "url": "https://developers.google.com/groups/"
+    }],
+    "social": [{
+        "name": "Twitter",
+        "link": "https://Twitter.com/btrkmn"
+    }, {
+        "name": "Facebook",
+        "link": "https://www.Facebook.com/btrkmn"
+    }, {
+        "name": "Linkedin",
+        "link": "http://tr.Linkedin.com/in/btrkmn"
+    }]
+}, {
+    "id": 53,
+    "name": "Mehmet Sedat",
+    "surname": "Kurt",
+    "title": "Co-Founder at 4pps",
+    "company": "4pps",
+    "bio": "I have started to mobile developing by GDG Ankara. At the beginning, I was interested in for some curious or fun, now I feel myself as a front-end developer. After graduation from Hacettepe University Computer Engineering, me and my friends have founded the 4PPS company and for a last year we try to make mobile solutions for problems we met.",
+    "thumbnailUrl": "sedatkurt.jpg",
+    "rockstar": true,
+    "ribbon": [{
+        "abbr": "GDG",
+        "title": "Google Developer Group Ankara",
+        "url": "https://developers.google.com/groups/"
+    }],
+    "social": null
+}, {
+    "id": 54,
+    "name": "Hüseyin",
+    "surname": "Karagöz",
+    "title": "Computer Engineering Student",
+    "bio": "I was born in 1992, I'm in senior class at Computer Engineering in Dumlupinar University. I'm one of the organizer of Gdg Kütahya. I enjoy to be interested in software and learn something new. I'm working on Android and java to develop myself and create new apps or anything else.",
+    "thumbnailUrl": "huseyinkaragoz.jpg",
+    "rockstar": true,
+    "ribbon": [{
+        "abbr": "GDG",
+        "title": "Google Developer Group Kütahya",
+        "url": "https://developers.google.com/groups/"
+    }],
+    "social": null
+}, {
+    "id": 57,
+    "name": "Ismael",
+    "surname": "Velasco",
+    "company": "Philips",
+    "title": "Business Development Manager",
+    "bio": "Ismael Velasco is a graduate of the English Studies Department of the Complutense University in Madrid. Since 2001 he has been working on different initiatives related to digital distribution and protection of audio-visual content, as project manager and team leader.  In 2009 he started working on some of the first European initiatives on VOD including development of Smart TV applications. Since 2011, he has served as the Business Development Manager for Philips Smart TV in Southern Europe at TP Vision.  His main responsibilities include the acquisition of apps and content for the platform and managing commercial relationships with partners.",
+    "thumbnailUrl": "IsmaelVelasco.jpg",
+    "social": null
+}, {
+    "id": 58,
+    "name": "Victor",
+    "surname": "Okunev",
+    "company": "Samsung",
+    "title": "Samsung Developer Evangelist",
+    "bio": "With a successful  20+ year career in software development, Victor has extensive experience building enterprise solutions, with the Java-based technology stack. Victor has joined the devoted family of Android developers fairly early in the game, shipping his first app for the Android Donut release. As an experienced hands-on architect and educator, Victor now combines his expertise with his passion as a Samsung Developer Evangelist. Victor connects the worldwide developers community with the world of Samsung Mobile B2B APIs. When he’s not traveling around the world to meet with developers, Victor bikes 50km to work in his hometown Vancouver, rain or shine.",
+    "thumbnailUrl": "victor.jpg",
+    "social": null
+}, {
+    "id": 59,
+    "name": "Mustafa",
+    "surname": "Kasap",
+    "company": "Microsoft",
+    "title": "Azure App Development Technology Manager",
+    "bio": "Mustafa Kasap, who is dealing with computer technologies for a long time, has involved in many academic and commercial projects during his undergraduate study. He earned his first Ph.D in 2008 on Mathematicical Modeling and Simulation in Turkey and compeleted his second Ph.D on computer graphics in Switzerland. As a guest researcher, he continued his academic researches in Singapore for a while,and then he joined to Microsoft family in 2012. Since 2013, he is working as Azure App Development Technology Manager.",
+    "thumbnailUrl": "mustafakasap2.jpg",
+    "social": null
+}, {
+    "id": 60,
+    "name": "Cavit",
+    "surname": "Yantaç",
+    "company": "Microsoft",
+    "title": "Deputy General Manager and Developer and Platform Evangelism Lead",
+    "bio": "Cavit Yantaç is Deputy General Manager and Developer and Platform Evangelism Lead for Microsoft Turkey. In his current role, he leads Microsoft Turkey’s activities among Developers, Students, Academia, Startups and IT Professionals as well as partnering with companies and individuals to create next generation innovative solutions, leveraging emerging technology. Cavit Yantaç has been with Microsoft for 9 years, in the first 6 years of which he was responsible for managing a team that provides technology solutions to enterprises. Before Microsoft, he worked for Nexum Bogazici, a German-Turkish consulting, IT and interactive design company, and completed consulting projects in Turkey, Europe and the US. Cavit holds a degree of MBA from University of Georgia and a BA degree from Bogazici University, Turkey.",
+    "thumbnailUrl": "cavit.jpg",
+    "social": null
+}, {
+    "id": 61,
+    "name": "Hasan",
+    "surname": "Yaşar",
+    "company": "indir.com",
+    "title": "Cofounder",
+    "bio": "He accomplished Istanbul Kultur University, Computer engineering department.He shares his experiences with other entrepreneurs by writing articles about entrepreneurship on his own blog.Since 1999, Yaşar who had developed web projects, is still managing www.oyna.com and www.indir.com projects as managing  partner of 'İmza İnternet Teknolojileri'.",
+    "thumbnailUrl": "hasanyasar.jpg",
+    "social": null
+}, {
+    "id": 62,
+    "name": "Muzaffer",
+    "surname": "Gölcü",
+    "company": "General Mobile",
+    "title": "",
+    "bio": "",
+    "thumbnailUrl": null,
+    "social": null
+}, {
+    "id": 63,
+    "name": "Sefa Şahin",
+    "surname": "Koç",
+    "company": "Tübitak",
+    "title": "Software Engineer",
+    "bio": "Sefa, graduated from Bilkent University, is a java developer and python lover. Alongside with great projects at Tubitak, he has contributed to OpenDaylight project. He is passionate about sports and nature.",
+    "thumbnailUrl": "sefasahin.png",
+    "social": null
+}, {
+    "id": 64,
+    "name": "Yakut",
+    "surname": "Özcan",
+    "company": "Uşak Üniversitesi",
+    "title": "Student",
+    "bio": "I’am student at Usak University Computer Programming Program, I’ working about Android for 2 years and arduino for 1 year. My curiosity about Computers and Electronics seems to be never end.I'm excited, I can not speak, but I can write blog posts.",
+    "thumbnailUrl": "yakut.jpg",
+    "social": null
+}, {
+    "id": 65,
+    "name": "Paweł",
+    "surname": "Głowacki",
+    "company": "Embarcadero Technologies",
+    "title": "Senior Software Consultant and EMEA Technical Lead",
+    "bio": "Paweł Głowacki is Senior Software Consultant and EMEA Technical Lead for Delphi, RAD Studio and All-Access for Embarcadero Technologies. Previously, Paweł spent over 7 years working as a senior consultant and trainer within Borland Education Services and CodeGear. As well as working with Embarcadero customers across the region, he also represents Embarcadero internationally as a conference and seminar speaker. He is passionate about software programming and technology.He has always impressed with technical excellency of Object Pascal compiler and Delphi Integrated Development Environment. In 2001 Pawel’s dream came true, he have moved from Poland to the Netherlands and joined Borland Software Corporation, the makers of Delphi, as consultant and trainer. PaweI never stopped enjoying Object Pascal and Delphi. He is currently working as EMEA Technical Lead for Developer Tools at Embarcadero, the home of Object Pascal, Delphi, C++Builder, RAD Studio, data modelling and database tools.",
+    "thumbnailUrl": "pawel.jpg",
+    "social": null
+}, {
+    "id": 66,
+    "name": "Onur",
+    "surname": "Koç",
+    "company": "Microsoft",
+    "title": "Director Cloud and Compete MS Turkey",
+    "bio": "Onur Koc joined Microsoft Turkey team 1 year ago. Onur's Microsoft career started 14 years ago. His first job was to manage the service team in Microsoft Saudi office. Then he joined to SWAT team at  Microsoft Headquarter in Seattle. He flighted 500000 km in a year for managing several international client projects. Later he joined the product development department in Seattle and managed several teams in Microsoft's strategic solutions like HPC, Windows Server, Azure, Xbox One. Currently he is working as Director Cloud and Compete MS Turkey. He thinks that software development is the closest job to magician and works for world wide solutions to happen in Turkey.",
+    "thumbnailUrl": "onurkoc.jpg",
+    "social": [{
+        "name": "Twitter",
+        "link": "https://Twitter.com/CloudTransform"
+    }, {
+        "name": "Linkedin",
+        "link": "https://www.Linkedin.com/pub/onur-koc/0/776/73a"
+    }]
+}, {
+    "id": 67,
+    "name": "Fotis",
+    "surname": "Tsalampounis",
+    "company": "Alexander Technological Institute",
+    "ribbon": [{
+        "abbr": "GDG",
+        "title": "GDG Thessaloniki",
+        "url": "https://developers.google.com/groups/"
+    }],
+    "title": "Developer and Student",
+    "bio": "Developer and student of the Alexander Technological Institute - winner of the first Study Jam Thessaloniki - member of the GDG Thessaloniki",
+    "thumbnailUrl": "fotis.png",
+    "social": null
+}, {
+    "id": 68,
+    "name": "Hatice",
+    "surname": "Meriç",
+    "company": "IBM",
+    "title": "Technical Consultant",
+    "bio": "Hatice Meriç has a Bachelor of Science degree in Computer Engineering from Yildiz Technical University. In 2010-2012, she was working as an IT Specialist in IBM Turkey Software Services for various telecommunication projects. She has been working as Technical Consultant in IBM Istanbul Innovation Center since 2012. Areas of expertise: Cloud, Mobile and IoT.",
+    "thumbnailUrl": "hatice.jpg",
+    "social": null
+}, {
+    "id": 69,
+    "name": "İbrahim",
+    "surname": "Erkan",
+    "company": "Ankara Kalkınma Ajansı",
+    "title": "Coordinator",
+    "bio": "I studied statistics during my BSc and PhD and got involved in many different areas such as statistical modeling, quality control, six sigma, statistical software and algorithm development, industrial data analysis and bioinformatics. I worked as a research assistant in the Middle East Technical University from 2003 to 2007 and switched to the private sector. As a statistical expert, I provided statistical quality trainings as well as statistical quality consultancy to many reputable Turkish companies. I also managed sales operations of academic and technical software products in the same company. Having joined Ankara Development Agency in 2010, I started working on regional development by means of science, innovation and technology. The Agency specifically aims the development of entrepreneurship in Ankara. As the Coordinator of Investment Support Expert at the Agency, my roles are to contribute to the development of entrepreneurship in Ankara city as well as to the promotion of inward investments.",
+    "thumbnailUrl": "ie.jpg",
+    "social": null
+}, {
+    "id": 70,
+    "name": "Burak",
+    "surname": "Aydın",
+    "company": "4pps",
+    "title": "CEO",
+    "bio": "I am one of the founder of 4pps mobile development company. I work as backend and android developer for two years. I also try some hacks on quadcopters, arduino, raspberry pi and ble devices for create innovative products. Deep in curiosity, coffee lover, cycler.",
+    "thumbnailUrl": "burakaydin.jpg",
+    "social": null
+}, {
+    "id": 71,
+    "name": "Murat",
+    "surname": "Gök",
+    "company": "Samsung",
+    "title": "Mobile Solutions Manager",
+    "bio": "Murat Gök graduated from Yildiz Technical University, Electonics and Communication Engineering department and completed MBA at Maltepe University. He is working in Samsung Electronics Turkey, Enterprise Business Team as Mobile Solutions Manager.",
+    "thumbnailUrl": "muratgok.jpg",
+    "social": null
+}]

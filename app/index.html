@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ADD 2015</title>
+    <!-- build:css styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild-->
+    <!-- build:js bower_components/webcomponentsjs/webcomponents.min.js -->
+    <script src="bower_components/webcomponentsjs/webcomponents.js"></script>
+    <!-- endbuild -->
+    <!-- will be replaced with elements/elements.vulcanized.html -->
+    <link rel="import" href="elements/elements.html">
+    <!-- endreplace-->
+</head>
+
+<body unresolved fullbleed layout vertical>
+    <template is="auto-binding" id="app">
+        <core-drawer-panel>
+            <!-- Drawer -->
+            <core-header-panel drawer mode="seamed">
+                <!-- Drawer Toolbar -->
+                <core-toolbar class="tall image-section">
+                </core-toolbar>
+                <!-- Drawer Content -->
+                <core-menu selected="0">
+                    <paper-item label="Program">
+                        <a href="#/">
+                            <core-icon icon="event"></core-icon>Program</a>
+                    </paper-item>
+                    <paper-item label="Speakers">
+                        <a href="#/speakers">
+                            <core-icon icon="account-circle"></core-icon>Speakers</a>
+                    </paper-item>
+                    <paper-item label="Sessions">
+                        <a href="#/sessions">
+                            <core-icon icon="schedule"></core-icon>Sessions</a>
+                    </paper-item>
+                    </div>
+            </core-header-panel>
+            <!-- Main -->
+            <core-header-panel id="headerPanel" mode="seamed" main flex>
+                <!-- Main Toolbar -->
+                <core-toolbar>
+                    <paper-icon-button icon="menu" core-drawer-toggle></paper-icon-button>
+                    <span flex>{{appName}}</span>
+                    <paper-icon-button icon="info"></paper-icon-button>
+                </core-toolbar>
+                <!-- Main Content -->
+                <div layout horizontal center-center fit>
+                    <app-router core-animated-pages transitions="hero-transition cross-fade">
+                        <app-route path="/speakers" import="pages/speakers-page.html"></app-route>
+                        <app-route path="/sessions" import="pages/sessions-page.html"></app-route>
+                    </app-router>
+                </div>
+            </core-header-panel>
+        </core-drawer-panel>
+    </template>
+    <!-- build:js scripts/app.js -->
+    <script src="scripts/app.js"></script>
+    <!-- endbuild-->
+</body>
+
+</html>

@@ -1,0 +1,63 @@
+<link rel="import" href="../../bower_components/polymer/polymer.html">
+<link rel="import" href="../../bower_components/core-ajax/core-ajax.html">
+<link rel="import" href="../../bower_components/core-list/core-list.html">
+<link rel="import" href="../../bower_components/core-image/core-image.html">
+<link rel="import" href="../elements/speaker-info.html">
+<polymer-element name="speakers-page">
+    <template>
+        <style>
+        :host {
+            display: block;
+            margin: 64px auto;
+            max-width: 640px;
+            overflow: auto;
+        }
+
+        core-list {
+            height: 100%;
+            position: relative;
+            box-sizing: border-box;
+            overflow-y: auto;
+        }
+
+        .row {
+            padding: 16px 16px;
+            cursor: pointer;
+        }
+
+        .row core-image {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+        }
+
+        .row .name {
+            margin-left: 10px;
+        }
+        </style>
+        <core-ajax auto url="../data/speakers.json" handleAs="json" response="{{speakers}}"></core-ajax>
+        <h4>{{closedRes}}</h4>
+        <core-list id="list" data="{{speakers}}" scrollTarget="{{$.headerPanel.scroller}}" fit>
+            <template>
+                <div class="row" on-tap="{{openInfo}}" layout horizontal center>
+                    <core-image src="images/speakers/{{model.thumbnailUrl}}" preload sizing="cover" placeholder="images/drawer-image.png">
+                    </core-image>
+                    <div class="name" flex>{{model.name}} {{model.surname}}</div>
+                </div>
+            </template>
+        </core-list>
+        <template if="{{opened}}">
+            <speaker-info speaker="{{selectedSpeaker}}" opened={{opened}} hidden?="{{!opened}}" fade-scale></speaker-info>
+        </template>
+    </template>
+    <script>
+    (function() {
+        Polymer('speakers-page', {
+            openInfo: function(e, detail, sender) {
+                this.selectedSpeaker = e.target.templateInstance.model.model;
+                this.opened = true;
+            }
+        });
+    })();
+    </script>
+</polymer-element>
