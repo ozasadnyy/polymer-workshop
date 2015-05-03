@@ -1,0 +1,87 @@
+<link rel="import" href="../../../bower_components/polymer/polymer.html">
+<link rel="import" href="../../../bower_components/core-scroll-header-panel/core-scroll-header-panel.html">
+<link rel="import" href="../../../bower_components/core-toolbar/core-toolbar.html">
+<link rel="import" href="../../../bower_components/core-icons/core-icons.html">
+<link rel="import" href="../../../bower_components/core-localstorage/core-localstorage.html">
+<link rel="import" href="../../../bower_components/paper-fab/paper-fab.html">
+<link rel="import" href="../speaker-info/speaker-info.html">
+<polymer-element name="session-info" attributes="session opened" layout vertical fit>
+    <template>
+        <link rel="stylesheet" href="session-info.css">
+        <core-localstorage name="app-storage" value="{{favoriteSessions}}"></core-localstorage>
+        <core-scroll-header-panel id="scrollHeaderPanel" condenses flex>
+            <core-toolbar class="tall" style="background-color: {{session.track.color}}">
+                <paper-icon-button icon="arrow-back" on-tap="{{closeInfo}}"></paper-icon-button>
+                <div class="title middle indent">{{session.title}}</div>
+                <div class="subtitle bottom indent">{{session.dateReadable}}, {{session.startTime}}-{{session.endTime}}, {{session.track.title}}</div>
+            </core-toolbar>
+            <div content>
+                <paper-fab id="fab" icon="star" on-tap="{{saveToFavorite}}"></paper-fab>
+                <div class="group">
+                    <div class="item">
+                        <div class="double-line-1">Language</div>
+                        <div class="double-line-2">{{session.language}}</div>
+                    </div>
+                    <div class="item">
+                        <div class="double-line-1">Complexity</div>
+                        <div class="double-line-2">{{session.complexity}}</div>
+                    </div>
+                    <div class="item">
+                        <div class="double-line-1">{{session.description}}</div>
+                    </div>
+                </div>
+                <div class="group">
+                    <template repeat="{{speaker in session.speakers}}">
+                        <div class="item speaker" on-tap="{{openSpeaker}}">
+                            <core-image _src="images/speakers/{{speaker.thumbnailUrl}}" class="speaker-image" sizing="cover" preload fade load></core-image>
+                            <div class="double-line-1">{{speaker.name}} {{speaker.surname}}</div>
+                            <div class="double-line-2">{{speaker.company}}, {{speaker.title}}</div>
+                        </div>
+                    </template>
+                </div>
+            </div>
+        </core-scroll-header-panel>
+        <template if="{{openedSpeaker}}">
+            <speaker-info speaker="{{selectedSpeaker}}" opened="{{openedSpeaker}}" hidden?="{{!openedSpeaker}}"></speaker-info>
+        </template>
+    </template>
+    <script>
+    (function() {
+        Polymer('session-info', {
+            opened: false,
+            closeInfo: function() {
+                this.opened = false;
+            },
+            openSpeaker: function(e, detail, sender) {
+                this.selectedSpeaker = e.target.templateInstance.model.speaker;
+                this.openedSpeaker = true;
+            },
+            saveToFavorite: function() {
+                if (!this.favoriteSessions) {
+                    this.favoriteSessions = [this.session];
+                }
+                for (var i = this.favoriteSessions.length - 1; i >= 0; i--) {
+                    if (this.favoriteSessions[i].id == this.session.id) {
+                        return;
+                    }
+                    if (this.favoriteSessions[i].id != this.session.id && i == 0) {
+                        this.favoriteSessions.push(this.session);
+                    }
+                }
+                console.log(this.favoriteSessions);
+            },
+            willPrepare: function() {
+                this.super();
+
+                // Measure the core-scroll-header-panel, otherwise its height will
+                // be messed up
+                this.$.scrollHeaderPanel.measureHeaderHeight();
+
+                // Reset the scroller so every time the user comes to the info page
+                // so they see the full profile photo
+                this.$.scrollHeaderPanel.scroller.scrollTop = 0;
+            }
+        });
+    })();
+    </script>
+</polymer-element>

@@ -36,8 +36,8 @@
                             <core-icon icon="account-circle"></core-icon>Speakers</a>
                     </paper-item>
                     <paper-item label="Sessions">
-                        <a href="#/sessions">
-                            <core-icon icon="schedule"></core-icon>Sessions</a>
+                        <a href="#/favorite">
+                            <core-icon icon="star"></core-icon>Favorite Sessions</a>
                     </paper-item>
                     </div>
             </core-header-panel>
@@ -52,8 +52,9 @@
                 <!-- Main Content -->
                 <div layout horizontal center-center fit>
                     <app-router core-animated-pages transitions="hero-transition cross-fade">
+                        <app-route path="/" import="pages/program-page.html"></app-route>
                         <app-route path="/speakers" import="pages/speakers-page.html"></app-route>
-                        <app-route path="/sessions" import="pages/sessions-page.html"></app-route>
+                        <app-route path="/favorite" import="pages/favorite-page.html"></app-route>
                     </app-router>
                 </div>
             </core-header-panel>

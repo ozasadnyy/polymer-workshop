@@ -1,0 +1,51 @@
+<link rel="import" href="../../bower_components/polymer/polymer.html">
+<link rel="import" href="../../bower_components/core-image/core-image.html">
+<link rel="import" href="../../bower_components/core-media-query/core-media-query.html">
+<link rel="import" href="../../bower_components/core-localstorage/core-localstorage.html">
+<link rel="import" href="../../bower_components/core-pages/core-pages.html">
+<link rel="import" href="../../bower_components/paper-tabs/paper-tabs.html">
+<link rel="import" href="../elements/app-data.html">
+<link rel="import" href="../elements/session-info/session-info.html">
+<polymer-element name="favorite-page">
+    <template>
+        <link rel="stylesheet" href="favorite-page.css">
+        <core-localstorage name="app-storage" value="{{favoriteSessions}}"></core-localstorage>
+        <core-media-query id="mq-phone" query="(min-width:320px) and (max-width:767px)" querymatches="{{isPhoneSize}}"></core-media-query>
+        <div class="card">
+            <div class="card-content">
+                <template repeat="{{session in favoriteSessions}}">
+                    <div class="slot" layout horizontal>
+                        <span class="schedule-time" auto-vertical>{{session.startTime}}<br>{{session.endTime}}</span>
+                        <div layout vertical?="{{isPhoneSize}}" horizontal?="{{!isPhoneSize}}" flex>
+                            <div class="session" layout vertical flex?="{{!isPhoneSize}}" on-tap="{{openSession}}">
+                                <h4 class="session-title">{{session.title}}</h4>
+                                <template repeat="{{speaker in session.speakers}}">
+                                    <div class="speaker" layout horizontal>
+                                        <core-image _src="images/speakers/{{speaker.thumbnailUrl}}" class="image" sizing="cover" preload fade load></core-image>
+                                        <div class="detail" layout vertical>
+                                            <span class="name">{{speaker.name}} {{speaker.surname}}</span>
+                                            <span class="company">{{speaker.company}}</span>
+                                        </div>
+                                    </div>
+                                </template>
+                            </div>
+                        </div>
+                    </div>
+                </template>
+            </div>
+        </div>
+        <template if="{{opened}}">
+            <session-info session="{{selectedSession}}" opened="{{opened}}" hidden?="{{!opened}}"></session-info>
+        </template>
+    </template>
+    <script>
+    (function() {
+        Polymer('favorite-page', {
+            openSession: function(e, detail, sender) {
+                this.selectedSession = e.target.templateInstance.model.session;
+                this.opened = true;
+            }
+        });
+    })();
+    </script>
+</polymer-element>
