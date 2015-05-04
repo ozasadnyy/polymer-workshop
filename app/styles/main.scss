@@ -1,49 +1,5 @@
-@import "variables";
-
 body {
     font-family: 'Helvetica', 'Arial', 'sans-serif';
     font-family: 'Roboto', sans-serif;
     color: #333;
-}
-
-a,
-::shadow a,
-.anchor-like {
-    color: $link-color;
-    font-weight: 400;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-.image-section {
-    color: #fff;
-    background-repeat: no-repeat;
-    background-position: center center !important;
-    background-size: cover !important;
-}
-
-/* drawer */
-core-drawer-panel [drawer] {
-    font-size: 14px;
-    font-weight: 500;
-    background-color: #F5F5F5;
-}
-
-core-drawer-panel [drawer] core-toolbar {
-    background-image: url(/images/drawer-image.png);
-}
-
-core-drawer-panel core-menu {
-    margin-left: 0;
-    margin-right: 0;
-}
-
-core-drawer-panel core-menu core-icon {
-    margin-right: 10px;
-}
-/* end drawer */
-
-core-toolbar {
-    background: $main-color;
-    color: #ffffff;
 }

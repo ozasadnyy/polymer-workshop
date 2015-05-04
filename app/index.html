@@ -19,46 +19,11 @@
 
 <body unresolved fullbleed layout vertical>
     <template is="auto-binding" id="app">
-        <core-drawer-panel>
-            <!-- Drawer -->
-            <core-header-panel drawer mode="seamed">
-                <!-- Drawer Toolbar -->
-                <core-toolbar class="tall image-section">
-                </core-toolbar>
-                <!-- Drawer Content -->
-                <core-menu selected="0">
-                    <paper-item label="Program">
-                        <a href="#/">
-                            <core-icon icon="event"></core-icon>Program</a>
-                    </paper-item>
-                    <paper-item label="Speakers">
-                        <a href="#/speakers">
-                            <core-icon icon="account-circle"></core-icon>Speakers</a>
-                    </paper-item>
-                    <paper-item label="Sessions">
-                        <a href="#/favorite">
-                            <core-icon icon="star"></core-icon>Favorite Sessions</a>
-                    </paper-item>
-                    </div>
-            </core-header-panel>
-            <!-- Main -->
-            <core-header-panel id="headerPanel" mode="seamed" main flex>
-                <!-- Main Toolbar -->
-                <core-toolbar>
-                    <paper-icon-button icon="menu" core-drawer-toggle></paper-icon-button>
-                    <span flex>{{appName}}</span>
-                    <paper-icon-button icon="info"></paper-icon-button>
-                </core-toolbar>
-                <!-- Main Content -->
-                <div layout horizontal center-center fit>
-                    <app-router core-animated-pages transitions="hero-transition cross-fade">
-                        <app-route path="/" import="pages/program-page.html"></app-route>
-                        <app-route path="/speakers" import="pages/speakers-page.html"></app-route>
-                        <app-route path="/favorite" import="pages/favorite-page.html"></app-route>
-                    </app-router>
-                </div>
-            </core-header-panel>
-        </core-drawer-panel>
+        <app-router>
+            <app-route path="/" import="pages/program-page.html"></app-route>
+            <app-route path="/speakers" import="pages/speakers-page.html"></app-route>
+            <app-route path="/favorite" import="pages/favorite-page.html"></app-route>
+        </app-router>
     </template>
     <!-- build:js scripts/app.js -->
     <script src="scripts/app.js"></script>

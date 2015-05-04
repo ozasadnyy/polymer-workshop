@@ -4,6 +4,7 @@
 <link rel="import" href="../../../bower_components/core-icons/core-icons.html">
 <link rel="import" href="../../../bower_components/core-localstorage/core-localstorage.html">
 <link rel="import" href="../../../bower_components/paper-fab/paper-fab.html">
+<link rel="import" href="../../../bower_components/paper-toast/paper-toast.html">
 <link rel="import" href="../speaker-info/speaker-info.html">
 <polymer-element name="session-info" attributes="session opened" layout vertical fit>
     <template>
@@ -16,7 +17,7 @@
                 <div class="subtitle bottom indent">{{session.dateReadable}}, {{session.startTime}}-{{session.endTime}}, {{session.track.title}}</div>
             </core-toolbar>
             <div content>
-                <paper-fab id="fab" icon="star" on-tap="{{saveToFavorite}}"></paper-fab>
+                <paper-fab id="fab" icon="star" on-tap="{{toggleFavorite}}"></paper-fab>
                 <div class="group">
                     <div class="item">
                         <div class="double-line-1">Language</div>
@@ -44,6 +45,8 @@
         <template if="{{openedSpeaker}}">
             <speaker-info speaker="{{selectedSpeaker}}" opened="{{openedSpeaker}}" hidden?="{{!openedSpeaker}}"></speaker-info>
         </template>
+        <paper-toast id="toastAdded" text="Session has been added to favorites"></paper-toast>
+        <paper-toast id="toastRemoved" text="Session has been removed from favorites"></paper-toast>
     </template>
     <script>
     (function() {
@@ -56,19 +59,17 @@
                 this.selectedSpeaker = e.target.templateInstance.model.speaker;
                 this.openedSpeaker = true;
             },
-            saveToFavorite: function() {
+            toggleFavorite: function() {
                 if (!this.favoriteSessions) {
-                    this.favoriteSessions = [this.session];
+                    this.favoriteSessions = [this.session.id];
+                    this.$.toastAdded.show();
+                } else if(this.favoriteSessions.indexOf(this.session.id) < 0) {
+                    this.favoriteSessions.push(this.session.id);
+                    this.$.toastAdded.show();
+                } else {
+                    this.favoriteSessions.splice(this.favoriteSessions.indexOf(this.session.id), 1);
+                    this.$.toastRemoved.show();
                 }
-                for (var i = this.favoriteSessions.length - 1; i >= 0; i--) {
-                    if (this.favoriteSessions[i].id == this.session.id) {
-                        return;
-                    }
-                    if (this.favoriteSessions[i].id != this.session.id && i == 0) {
-                        this.favoriteSessions.push(this.session);
-                    }
-                }
-                console.log(this.favoriteSessions);
             },
             willPrepare: function() {
                 this.super();
