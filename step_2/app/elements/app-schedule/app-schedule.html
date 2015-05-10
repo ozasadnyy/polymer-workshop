@@ -1,0 +1,71 @@
+<link rel="import" href="../app-data.html">
+<link rel="import" href="../session-info/session-info.html">
+<polymer-element name="app-schedule" attributes="favorites" fit>
+    <template>
+        <link rel="stylesheet" href="app-schedule.css">
+        <app-data id="data" scheduleResponse="{{schedule}}"></app-data>
+        <core-media-query id="mq-phone" query="(min-width:320px) and (max-width:767px)" querymatches="{{isPhoneSize}}"></core-media-query>
+        <!-- favorite sessions -->
+        <template if="{{favorites}}">
+            <core-localstorage name="app-storage" value="{{favoriteSessions}}"></core-localstorage>
+        </template>
+        <!-- tabs -->
+        <paper-tabs selected="{{selected}}">
+            <template repeat="{{day in schedule}}">
+                <paper-tab>{{day.dateReadable}}</paper-tab>
+            </template>
+        </paper-tabs>
+        <!-- pages -->
+        <core-pages selected="{{selected}}">
+            <template repeat="{{day in schedule}}">
+                <div class="card">
+                    <div class="card-content">
+                        <template repeat="{{slot in day.timeslots}}">
+                            <div class="slot" layout horizontal>
+                                <span class="schedule-time" auto-vertical>{{slot.startTime}}<br>{{slot.endTime}}</span>
+                                <div layout vertical?="{{isPhoneSize}}" horizontal?="{{!isPhoneSize}}" flex>
+                                    <template repeat="{{session, i in slot.sessions}}">
+                                        <template if="{{showSession(session.id)}}">
+                                            <div class="session" layout vertical flex?="{{!isPhoneSize}}" on-tap="{{openSession}}">
+                                                <h4 class="session-title">{{session.title}}</h4>
+                                                <template repeat="{{speaker in session.speakers}}">
+                                                    <div class="speaker" layout horizontal>
+                                                        <core-image _src="images/speakers/{{speaker.thumbnailUrl}}" class="image" sizing="cover" preload fade load></core-image>
+                                                        <div class="detail" layout vertical>
+                                                            <span class="name">{{speaker.name}} {{speaker.surname}}</span>
+                                                            <span class="company">{{speaker.company}}</span>
+                                                        </div>
+                                                    </div>
+                                                </template>
+                                            </div>
+                                        </template>
+                                    </template>
+                                </div>
+                            </div>
+                        </template>
+                    </div>
+                </div>
+            </template>
+        </core-pages>
+        <template if="{{opened}}">
+            <session-info session="{{selectedSession}}" opened="{{opened}}" hidden?="{{!opened}}"></session-info>
+        </template>
+    </template>
+    <script>
+    (function() {
+        Polymer('app-schedule', {
+            favorites: false,
+            selected: 0,
+            openSession: function(e, detail, sender) {
+                this.selectedSession = e.target.templateInstance.model.session;
+                this.opened = true;
+            },
+            showSession: function(id) {
+                if (!this.favorites || this.favorites && this.favoriteSessions.indexOf(id) > -1) {
+                    return true;
+                }
+            }
+        });
+    })();
+    </script>
+</polymer-element>

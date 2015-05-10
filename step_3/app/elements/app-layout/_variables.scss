@@ -1,0 +1,19 @@
+// Fonts
+$font-family: 'Roboto', sans-serif;
+$font-size: 16px;
+$font-weight: 400;
+$line-height: 1.5;
+
+// Colors
+$main-color: #78A842;
+$font-color: #212121;
+$header-color: #5c5c5c;
+$link-color: #353535;
+$link-lighten-amount: 20%;
+
+// Transition
+$transition-duration: 0.3s;
+$transition-animation: cubic-bezier(0, 0, 0.2, 1);
+$color-animation: color $transition-duration $transition-animation;
+$opacity-animation: opacity $transition-duration $transition-animation;
+$box-shadow-animation: box-shadow $transition-duration $transition-animation;

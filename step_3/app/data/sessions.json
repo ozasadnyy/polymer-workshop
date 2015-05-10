@@ -1,0 +1,752 @@
+[{
+    "id": 307,
+    "title": "Coffee Break",
+    "place": "Hall",
+    "service": true
+}, {
+    "id": 503,
+    "title": "Lunch Break",
+    "place": "Dining room",
+    "service": true
+}, {
+    "id": 505,
+    "title": "Waiting for Details",
+    "description": "",
+    "subtype": "presentation",
+    "speakers": [],
+    "language": "tr",
+    "complexity": "Beginner"
+}, {
+    "id": 101,
+    "title": "Opening Keynote-Room A-B",
+    "description": "Welcome and Opening",
+    "subtype": "keynote",
+    "speakers": [],
+    "language": "tr",
+    "complexity": "Beginner"
+}, {
+    "id": 102,
+    "title": "Google-Keynote-Room A-B",
+    "description": "Google Keynote",
+    "subtype": "presentation",
+    "speakers": [
+        29
+    ],
+    "language": "en",
+    "complexity": "Beginner"
+}, {
+    "id": 103,
+    "title": "What's new in Android Testing",
+    "description": "Unit Test Support in Gradle, the new Android Testing Support Library, Espresso 2.1, JUnit4 ... everyone talks of testing in 2015 ! We will review what is new and what is coming from Google. Happy Testing!",
+    "subtype": "presentation",
+    "speakers": [
+        3
+    ],
+    "language": "en",
+    "complexity": "Intermediate"
+}, {
+    "id": 104,
+    "title": "Why Java EE needs the Community and Open Source?",
+    "description": "Did you ever find the time to look into what the industry-standard Java EE really means? The reality is that few people really know how Java and Java EE are governed and how these ideas effect their own professional lives in the long and short term.This session will aim to introduce the audience to open standards like Java and Java EE and how they are governed. It also discusses what being an open standard really means as well as why and how you should contribute to them yourself.",
+    "subtype": "presentation",
+    "speakers": [
+        8
+    ],
+    "language": "en",
+    "complexity": "Beginner"
+}, {
+    "id": 105,
+    "title": "Monetize, Promote and Analyze Your App with Google AdMob",
+    "description": "How to use AdMob to earn money from your app to help you build a great app business. General understanding of mobile application monetization: Develop, Distribute, Monetize. Monetizing with Scale and Quality. Analyzing Users with Google Analytics and leveraging the opportunity. Exploring Mediation and latest offerings of Google Mobile Ads.",
+    "subtype": "presentation",
+    "speakers": [
+        2
+    ],
+    "language": "tr",
+    "complexity": "Beginner"
+}, {
+    "id": 106,
+    "title": "Mobile Security: Death to Passwords",
+    "description": "User authentication in mobile and web applications is a very common and integral use case. Implementing basic authentication is an easy solution for developers but comes with several pitfalls that impair user experience like (re-)entering passwords, the need to create a new unique password or even just the input of personal data on a flaky keyboard while registering a new account.In this talk the security flaws and UX implications of passwords will be discussed and Tim will highlight which different techniques exist that are able to offer a more mobile friendly flow. Highlighting authorization and authentication techniques like OAuth, OpenID Connect and even hardware features like Bluetooth Low Energy this talk will be interesting for anyone who's facing a situation where creating and storing user accounts matters.",
+    "subtype": "presentation",
+    "speakers": [
+        5
+    ],
+    "language": "en",
+    "complexity": "Beginner"
+}, {
+    "id": 107,
+    "title": "CyanogenMod Workshop - Building your own Android OS",
+    "description": "Learn to build the CyanogenMod based Android OS on your own - no experience required. A step by step guide will be provided to build Lollipop for some of the most popular devices from HTC, LG, Sony and more. Learn how to setup a build environment, sync the Android source, an overview of the Android build system and how to compile the OS for yourself. All you need to bring is an SSH capable laptop and enthusiasm! ",
+    "subtype": "workshop",
+    "speakers": [
+        6
+    ],
+    "language": "en",
+    "complexity": "Beginner"
+}, {
+    "id": 108,
+    "title": "Getting started with BLE development for Android",
+    "description": "In the current era of wearable products, all the products are coming with Bluetooth Low Energy feature, so called BLE. Some of the wearable products are doing amazing in the market, which are Android Wear, FitBit, Runtastic. All of these fitness devices measure data using their tracker device and then later it communicates with the connected handheld devices through BLE. Beacon is another cool technology which is dependent on BLE, so knowing about BLE is necessary! During this talk, I will be exploring about BLE, terms being used in BLE APIs, connecting BLE devices, difficulties/issues, possibilities, usage of BLE in android applications and many more things!",
+    "subtype": "presentation",
+    "speakers": [
+        14
+    ],
+    "language": "en",
+    "complexity": "Beginner"
+}, {
+    "id": 109,
+    "title": "Android Tools of the Trade",
+    "description": "A presentation covering common performance and stability pitfalls in Android along with a runthrough over some of the testing and analysis tools offered by the new device monitor including battery historian, traceView, DDMS and dumpsys followed by a live demonstration of analysis with a demo application and concluding with tips and tricks on improving stability and performance in you Android application. ",
+    "subtype": "presentation",
+    "speakers": [
+        1
+    ],
+    "language": "en",
+    "complexity": "Beginner"
+}, {
+    "id": 110,
+    "title": "Developing for Android Wear",
+    "description": "In this session, I will give an overview of Android Wear and the underlying basic design principles. We will go through the platform capabilities and talk about how it can be integrated in your existing app by looking at some code examples.",
+    "subtype": "presentation",
+    "speakers": [
+        22
+    ],
+    "language": "tr",
+    "complexity": "Beginner"
+}, {
+    "id": 111,
+    "title": "Story of PiriBot",
+    "description": "This is the story of unmanned and autonomous sea device controlled by an Android smartphone which will try to pass Mediterranean sea in 2015 summer.",
+    "subtype": "presentation",
+    "speakers": [
+        19
+    ],
+    "language": "tr",
+    "complexity": "Beginner"
+}, {
+    "id": 112,
+    "title": "Efficient sync on Android",
+    "description": "Your users want their emails, contacts and notes being available all the time, even if they are offline. On the other hand, they want all their data synced across all their devices. Instantly. Obviously – all of this needs to be battery and network efficient. While developing the Base app, Mateusz and his teammates had to face those problems. During this session he’ll give you some advices directly from the battlefield.",
+    "subtype": "presentation",
+    "speakers": [
+        27
+    ],
+    "language": "en",
+    "complexity": "Beginner"
+}, {
+    "id": 113,
+    "title": "The Physical Web by Google",
+    "description": "The Physical Web is an approach to unleash the core superpower of the web: interaction on demand. People should be able to walk up to any smart device - a vending machine, a poster, a toy, a bus stop, a rental car - and not have to download an app first. Everything should be just a tap away. The talk will introduce to the audience to the basics of the Internet of Things and some of the impressively growing stadistics, going after to the core of the speech: The Physical Web, the approach Google is proposing for the Smartobjects in the Internet of Things. A live demo with PW beacons will be issued.",
+    "subtype": "presentation",
+    "speakers": [
+        16
+    ],
+    "language": "en",
+    "complexity": "Beginner"
+}, {
+    "id": 114,
+    "title": "STM AeroTab™ iOS – Electronic Flight Bag and Used Libraries",
+    "description": "Electronic flight bag(EFB) is an electronic information system that is used to help flight crew and reduce paper-based reference material. In this presentation, we will talk about EFB that has been developed by STM since 2011 with Atlasjet cooperation, management method of libraries that are used in Aerotab EFB and the libraries such as Mapbox, PSPDFKit, AFNetworking, CocoaLumberjack, Cocoasecurity, FMDB, ZipArchive, GData XML-HTML, AKSlidecks, BLWebSocketServer, JSQMessagesViewController.",
+    "subtype": "presentation",
+    "speakers": [
+        30,
+        31
+    ],
+    "language": "tr",
+    "complexity": "Beginner"
+}, {
+    "id": 115,
+    "title": "Clean Code",
+    "description": "Writing clean code: How understandable and focused code can be written is the topic of the session. With counter examples and their rehabilitated version dirty and clean code will be explained. All code examples will be presented in Java.",
+    "subtype": "presentation",
+    "speakers": [
+        21
+    ],
+    "language": "tr",
+    "complexity": "Beginner"
+}, {
+    "id": 116,
+    "title": "Making Mobile Security Matter in a Go-To-Market World",
+    "description": "Android was designed to build feature-rich applications for an increasingly demanding mobile society. With the power and flexibility of the Android platform comes the risk of overlooking essential security precautions as applications are moved rapidly to market.  Referencing substantial mobile security research lead by Hewlett-Packard, this presentation outlines the most common oversights in mobile security and how to leverage your organization’s business goals to build security into the mobile development process.",
+    "subtype": "presentation",
+    "speakers": [
+        28
+    ],
+    "language": "en",
+    "complexity": "Beginner"
+}, {
+    "id": 117,
+    "title": "How to Continuously Deliver in Mobile Platforms",
+    "description": "What is Continuous integration, delivery and deployment, how to implement the infrastructure, how is it applied to mobile apps, best practices and tools",
+    "subtype": "presentation",
+    "speakers": [
+        23
+    ],
+    "language": "tr",
+    "complexity": "Beginner"
+}, {
+    "id": 118,
+    "title": "VR Technologies",
+    "description": "Lately Virtual Reality has become a popular topic in the game industry. It is becoming a powerful marketing tool also. VR is an already known technology in decades but why did VR become so popular very fast? What happened in technology that allowed VR hardware to be accessible by end users in reasonable prices? What lays behind this technology? What are the difficulties and problems that can be caused? How is it used as a marketing tool? What do we expect in the future? These are some of the topics that will be covered in the 'VR Technologies' session. Detailed explanation about the hardware and SDK will be given for developers.",
+    "subtype": "presentation",
+    "speakers": [
+        25
+    ],
+    "language": "en",
+    "complexity": "Beginner"
+}, {
+    "id": 119,
+    "title": "Reach 4 million Unity developers with your Android library",
+    "description": "Reach 4 million Unity developers with your Android library With the 45% market share, Unity is the most popular game engine in the world. Featuring reach API exposed in C# and JavaScript, a tremendous amount of assets and libraries available and Asset Store - an open platform to sell or share them. While talk will discuss why it is time to make your Android library or SDK available to Unity developers. How to expose it to C# using Unity API, JNI and a bit of magic. What problems you'll face with while porting. And last but not least, how to publish your work to Unity Asset Store.",
+    "subtype": "presentation",
+    "speakers": [
+        32
+    ],
+    "language": "en",
+    "complexity": "Beginner"
+}, {
+    "id": 120,
+    "title": "Mobile Health",
+    "description": "Integration of mobile technologies and healthcare informatics sets the stage for innovative emerging research discipline titled as ‘mhealth’ or ‘mobile health’. This talk will include the basic ideas, tools, case studies and contributions of mobile in healthcare sector. Brief information will be given on Mobile Health course at METU and the projects prepared in the course.",
+    "subtype": "presentation",
+    "speakers": [
+        33
+    ],
+    "language": "tr",
+    "complexity": "Beginner"
+}, {
+    "id": 121,
+    "title": "GDG Unconference-Room C",
+    "description": "GDG Unconference",
+    "subtype": "presentation",
+    "speakers": [
+        29
+    ],
+    "language": "tr",
+    "complexity": "Beginner"
+}, {
+    "id": 122,
+    "title": "Microsoft Keynote-Room A-B: Quo Vadis? Opportunities Ahead",
+    "description": "Last 30 years saw the emergence of companies like Microsoft, following the dawn of personal computing. In the last 10 years, we saw a second generation of innovation in the form of mobile computing. Now, ahead of us lies a new set of opportunities, which will probably create many new and large companies throughout the world. The number of connected PC’s is more than 1 billion; number of mobile and connected devices will surpass 10 billion soon. However, the total number of connected devices will probably exceed 50 billion by the turn of the new decade, and we will see many, many new success stories here. Wearables, big data projects, mobility, social and cloud all provide endless opportunities for aspiring developers and startups in smart cities, health, security, defense, etc. Following the trends in this new era will not suffice, we will need to “LEAD” in this new world to emerge as successful developers.",
+    "subtype": "presentation",
+    "speakers": [
+        60
+    ],
+    "language": "tr",
+    "complexity": "Beginner"
+}, {
+    "id": 123,
+    "title": "The Android NDK",
+    "description": "The Android NDK is used to integrate asm/C/C++ code into Android applications and libraries. Learn how to use it as well as NDK-based libraries with Android Studio. Discover what changes from the new Android Runtime (ART) may break your integration, and what you need to do in order to take advantage of 64-bit architectures.",
+    "subtype": "presentation",
+    "speakers": [
+        4
+    ],
+    "language": "en",
+    "complexity": "Beginner"
+}, {
+    "id": 124,
+    "title": "Add a Touch of Fitness to Your Apps",
+    "description": "Fitness in apps used to be dominated by sports companies, device manufacturers and dedicated health tracking startups. Now with the advent of platforms like Google Fit and HealthKit, the ability to incorporate fitness elements into apps has never been simpler.In this talk we will explore how to access and use fitness data in novel ways – in apps that may not be fitness focussed – to better engage users and promote healthier lifestyles.",
+    "subtype": "presentation",
+    "speakers": [
+        0
+    ],
+    "language": "en",
+    "complexity": "Beginner"
+}, {
+    "id": 125,
+    "title": "Design a better (U)Xperience",
+    "description": "Making a good designed Android application is not enough anymore, it has to be fresh, exciting, and unique. This talk will show you how to change a good design to a awesome one. Giving pointers and tips on how to enhance your design skills",
+    "subtype": "presentation",
+    "speakers": [
+        7
+    ],
+    "language": "en",
+    "complexity": "Beginner"
+}, {
+    "id": 126,
+    "title": "Effective Android",
+    "description": "Getting a grasp of the software principles,the best practices and apply them to android development. This talk aims to show the problems that we faced in daily work and the solutions that we found as the best practices.",
+    "subtype": "presentation",
+    "speakers": [
+        11
+    ],
+    "language": "tr",
+    "complexity": "Beginner"
+}, {
+    "id": 127,
+    "title": "Connecting the Bean: the bumpy road of Bluetooth Low Energy on Android",
+    "description": "Connecting smart, low energy peripherals using Bluetooth Low Energy seems easy enough; the devices and API’s are available since Android 4.3, but only until you start using those API’s you’ll encounter strange, undocumented and sometimes surprising details. In this session I’ll talk about Android BLE and the particularities of it, by taking the experience and learnings of building the unofficial SDK for the LightBlue Bean. This session will cover what BLE is, the key API’s involved and will highlight tips, tricks and issues for each API.",
+    "subtype": "presentation",
+    "speakers": [
+        12
+    ],
+    "language": "en",
+    "complexity": "Beginner"
+}, {
+    "id": 128,
+    "title": "Developing Reusable Software Components Using MVP, Observer and Mediator Patterns",
+    "description": "Having a layered architecture brings several benefits to software development, some of which are;1. Developers can apply unit testing on every layer separately,2. Each layer can be developed by those who are really experienced with the technologies used in each layer,3. It becomes possible to reuse components created in each layer accross different systems. It is a very common practice to employ classical three tier layered architecture to separate UI, business and data access parts from each other. However, in order to achieve true modularity and reusability, we need to create some other architecture on top of the layered architecture to handle functional aspects which are usually cross­cutting those three layers. It is possible to create such an architecture which provides a basis for a modular and reusable component based architecture, by employing model­view­presenter (MVP), observer and mediator patterns together. Indeed, some frameworks in Java EE ecosystem help us to easily realize such an architecture in our projects. MVP helps us to separate handling backend logic from UI rendering completely. Any UI event, such as button click, list select etc, is immediately translated into a corresponding business event, and is let to be circulated among other components via Observer and Mediator patterns. Those other components are able to handle business events that they are interested in, execute their functionalities, publish new business events, update UI and so on. Similar modularity can also be achieved in service layer as well. Service beans can be decleratively configured to publish business events at different steps during execution of their methods. Those other components which need to involve in those service method calls can handle those events and execute their own logic. Both event source and event target components are totally unaware of each other. They can be introduced into the system optionally, and even at run time. As a result, it becomes possible to achieve modularity and reusability both on micro and macro level in our enterprise applications.",
+    "subtype": "presentation",
+    "speakers": [
+        26
+    ],
+    "language": "tr",
+    "complexity": "Beginner"
+}, {
+    "id": 129,
+    "title": "Go Startup Smartly",
+    "description": "Creating your own startup is an amazing journey. Turhan Oz will describe you the progress made in this field, especially for continuous improvement with minimum waste. The talk is an invitation to make you realize that by smartly iterating, the path to succeed is more likely to happen.",
+    "subtype": "presentation",
+    "speakers": [
+        18
+    ],
+    "language": "en",
+    "complexity": "Beginner"
+}, {
+    "id": 130,
+    "title": "Gaining App Visibility That Matters",
+    "description": "You've spent a lot of time in building an app that provides a better experience for users accessing your content from their android smartphones, but what if target users fail to discover your awesome app? This talk will discuss some of the latest trends and results of experiments that will help app developers to gain more visibility of their app.",
+    "subtype": "presentation",
+    "speakers": [
+        10
+    ],
+    "language": "en",
+    "complexity": "Beginner"
+}, {
+    "id": 131,
+    "title": "Material All The World",
+    "description": "This session gives you an insight of our migration to lollipop. The application shouldn't only used from Lollipop onwards. So we had to be downward compatible. I show you how to use the app-compat support library as well RecyclerView and CardView. It also contains some technics/ workarounds so we accomplish nearly the same look and feel of the application in different api levels. This talk doesn't go deep into animation, with is also a large part of Material. This session aims developers, who have already an application and for the ones, who want to create downward compatible ones.",
+    "subtype": "presentation",
+    "speakers": [
+        13
+    ],
+    "language": "en",
+    "complexity": "Beginner"
+}, {
+    "id": 132,
+    "title": "Embedded Android with Lollipop",
+    "description": "Android is a custom-built embedded Linux  system that can be used for creating many innovative solutions, including but not limited to mobile applications. Android APIs, and services are the building blocks for many embedded applications.  In this talk we will go over how one can create embedded applications with Android and how it can be customized.",
+    "subtype": "presentation",
+    "speakers": [
+        20
+    ],
+    "language": "tr",
+    "complexity": "Beginner"
+}, {
+    "id": 133,
+    "title": "Deep Dive Into Android State Restoration",
+    "description": "Learn about how Android saves state in general in order to be able to restore an application in the exact same state the process was prior being killed because of a low memory condition or a configuration change. In this talk we mainly focus on the Parcelable and Parcel objects and how Android uses them to save/restore some important stateful information such as the complete UI state.",
+    "subtype": "presentation",
+    "speakers": [
+        9
+    ],
+    "language": "en",
+    "complexity": "Beginner"
+}, {
+    "id": 134,
+    "title": "indir.com Mobile App Contest Finalists",
+    "description": "indir.com Mobile App Contest Finalists will introduce their apps",
+    "subtype": "presentation",
+    "speakers": [],
+    "language": "tr",
+    "complexity": "Beginner"
+}, {
+    "id": 135,
+    "title": "Mobile Test Automation",
+    "description": "This presentetion will be about; Why testing is important, who should test, major obstacles in mobile testing and automation, ATDD in Continuous Delivery, suggested tools and frameworks for mobile automation.",
+    "subtype": "presentation",
+    "speakers": [
+        24
+    ],
+    "language": "tr",
+    "complexity": "Beginner"
+}, {
+    "id": 136,
+    "title": "Piracy",
+    "description": "Building awesome Android apps is a really really hard work that takes tons of time and dedication and also money. The worst thing that can happen to developers is that their apps get pirated and the developers that worked so hard to create them do not get honored for their hard work.This talk will show the problems that arise from pirated apps as well as which countermeasures you, as a developer, can take to make it as difficult as possible to pirate your apps.",
+    "subtype": "presentation",
+    "speakers": [
+        15
+    ],
+    "language": "en",
+    "complexity": "Beginner"
+}, {
+    "id": 137,
+    "title": "Google WebRTC on Mobile",
+    "description": "WebRTC is a free, open project that provides browsers and mobile applications with Real-Time Communications (RTC) capabilities via simple APIs. It was released by Google in 2011 and it is becoming more famous day by day. In this talk, you can find a general view of webRTC.",
+    "subtype": "presentation",
+    "speakers": [
+        34
+    ],
+    "language": "tr",
+    "complexity": "Beginner"
+}, {
+    "id": 138,
+    "title": "Secure Communications Using Encryption Algorithms on Mobile Platform",
+    "description": "Security issues have an important place in today's communication technologies. Since mutual communication must be done through secure channels that don’t allow third people to intervene, it is very important to make the security levels of these channels as high as possible. Of all security methods, the encryption algorithms have a great importance. These algorithms are ranked according to their complexity and resist by the rate of their complexity and power from the moment seized by third people who can penetrate mutual communication. In our study, we will issue which methods are used for message encryption security, how mutual messaging infrastructure is created on mobile devices with the android operating system via the internet and how to do encryption and decryption process. We will explain performance analysis of encryption algorithms on the mobile platform also discuss advantages and disadvantages to each other.",
+    "subtype": "presentation",
+    "speakers": [
+        35
+    ],
+    "language": "tr",
+    "complexity": "Beginner"
+}, {
+    "id": 139,
+    "title": "Android Continuous Delivery",
+    "description": "In this session, we'd like to talk about the methods, tools, and best practises that we try to use while developing Hepsiburada.com's Android application. These practises include Functional and Unit tests, and automizing them.",
+    "subtype": "presentation",
+    "speakers": [
+        36,
+        37
+    ],
+    "language": "tr",
+    "complexity": "Beginner"
+}, {
+    "id": 140,
+    "title": "Creating Watch Faces for Android Wear",
+    "description": "Since Google's announcement of Android Wear in March 2014, developers are continuously working on a variety of new watch faces to make your smartwatch even more useful and pretty. Until recently, there was no official library for that, but now it's here. In this session, we'll talk about developing the Android Wear watch faces using the official library.",
+    "subtype": "presentation",
+    "speakers": [
+        38
+    ],
+    "language": "tr",
+    "complexity": "Beginner"
+}, {
+    "id": 141,
+    "title": "I Can, But I Won't",
+    "description": "Each day a new technology is introduced. Although most of these advancements are fascinating, and creates lots of opportunities, it is now even harder for us to choose which technology to adopt. In this talk we’ll go through some exciting stuff that’s happening or about to happen in the software industry, and by looking at the facts in the history we'll try to answer one question: Where are we heading?",
+    "subtype": "presentation",
+    "speakers": [
+        39
+    ],
+    "language": "tr",
+    "complexity": "Beginner"
+}, {
+    "id": 142,
+    "title": "Design Patterns every Android developer should know",
+    "description": "I am going to explain design patterns that every android developer should know and understand. I will try to explain why they are necessary on Android platform.",
+    "subtype": "presentation",
+    "speakers": [
+        40
+    ],
+    "language": "tr",
+    "complexity": "Beginner"
+}, {
+    "id": 143,
+    "title": "Story of Rop",
+    "description": "I am going to tell Rop's 106-day Development Story, featured first week all around the world. This 106-day story will be start with inferences from my previous works. I'll talk about how innovation/creativity and aesthetics is important. In addition I will mention about 'tester satisfaction' that most indie game developers ignore.",
+    "subtype": "presentation",
+    "speakers": [
+        41
+    ],
+    "language": "tr",
+    "complexity": "Intermediate"
+}, {
+    "id": 144,
+    "title": "Internet of Everything",
+    "description": "Internet of things is a rising star of internet age. In my presentation, I'm going to talk about the concept of internet of things and subtitles of internet of things like wearable technologies and smart home systems. Also, I'm going to touch on works about internet of things in Turkey and the rest of world.",
+    "subtype": "presentation",
+    "speakers": [
+        42
+    ],
+    "language": "tr",
+    "complexity": "Beginner"
+}, {
+    "id": 145,
+    "title": "Developing Virtual Reality games by using CardBoard SDK and Unity 5.0",
+    "description": "In this workshop, a virtual reality game will be developed by using basic game logics in introduction level.",
+    "subtype": "workshop",
+    "speakers": [
+        43
+    ],
+    "language": "tr",
+    "complexity": "Beginner"
+}, {
+    "id": 146,
+    "title": "Android Wear Workshop",
+    "description": "At this workshop, there will be an introduction to developing for Android Wear. Android Wear emulator and a real device will be set up for development. Then the topics - making our existing apps Android Wear compatible - and - developing Android Wear specific applications - will be discussed. There will be done a tutorial app with participants at last.",
+    "subtype": "workshop",
+    "speakers": [
+        44
+    ],
+    "language": "tr",
+    "complexity": "Beginner"
+}, {
+    "id": 147,
+    "title": "New Phenomenons : Materialize, InterCooler and Flat Workshop",
+    "description": "With Google's new project Polymer, design and development changes to materialize in UI, intercooler JS in backend and flat in graphic. Materialize firstly used in Google+ and then in Adsense and Adwords.",
+    "subtype": "workshop",
+    "speakers": [
+        45
+    ],
+    "language": "tr",
+    "complexity": "Beginner"
+}, {
+    "id": 148,
+    "title": "Unity 2D Game Development Workshop",
+    "description": "Developing 2D Android game with Unity3D",
+    "subtype": "workshop",
+    "speakers": [
+        46
+    ],
+    "language": "tr",
+    "complexity": "Beginner"
+}, {
+    "id": 149,
+    "title": "Modern Web with Polymer Workshop",
+    "description": "With new features of Web Component developers have more opportunities to develop modules that can be reused in future projects. Creation of such components is extremely simple with Polymer. As a result boundary between native apps and web becomes thinner.",
+    "subtype": "workshop",
+    "speakers": [
+        17
+    ],
+    "language": "en",
+    "complexity": "Beginner"
+}, {
+    "id": 150,
+    "title": "IOS Workshop with Swift",
+    "description": "The emergence and development of programming languages Swift. Features of Swift and Objective- C programming language based on differences. Music application for Apple watch",
+    "subtype": "workshop",
+    "speakers": [
+        47
+    ],
+    "language": "tr",
+    "complexity": "Beginner"
+}, {
+    "id": 151,
+    "title": "Developing Mobile App for Cloud",
+    "description": "This session will be a handson workshop showing developing cloud appa for Android using Bluemix mobile services which is based on open source Cloud Foundry platform.",
+    "subtype": "workshop",
+    "speakers": [
+        48
+    ],
+    "language": "tr",
+    "complexity": "Beginner"
+}, {
+    "id": 152,
+    "title": "Image Processing with OpenCV for Android",
+    "description": "OpenCV, which contains several APIs for face recognation, motion capture and robot technologies, supports mobile platforms since 2012. This talk will introduce OpenCV setup and usage in Android platform. Furthermore, OpenCV4Android will be introduced. A Basic image processing app for   Android will be developed in Java and C++.",
+    "subtype": "presentation",
+    "speakers": [
+        49
+    ],
+    "language": "tr",
+    "complexity": "Beginner"
+}, {
+    "id": 153,
+    "title": "BLE (Bluetooth Low Energy) Technology and Internet of Things Workshop",
+    "description": "New technologies provides new opportunities everyday. Today so many devices can connect to the internet and send or receive tremendous amount of data. They can also communicate with each other using wireless technologies. This improvements creates many new opportunities and business areas for both software and hardware companies. BLE - which becomes a significant communication technology for devices - and its foundation, usage areas, the effects of it on IOT are going to be explained and showed with applications. The target of the workshop is to raise awareness on “IOT and BLE” especially for software developers.",
+    "subtype": "workshop",
+    "speakers": [
+        50
+    ],
+    "language": "tr",
+    "complexity": "Beginner"
+}, {
+    "id": 154,
+    "title": "Android 101: Introduction to Android Workshop",
+    "description": "Android 101 will teach you these:<br>-What is Android?<br>-How to use Android Studio?<br>-What is Gradle?<br>-What is Activity? What is View?<br>-What are Resources?<br>-How to make a small and sweet Android Application?<br>-and How to release an application to Google Play Store?",
+    "subtype": "workshop",
+    "speakers": [
+        51
+    ],
+    "language": "tr",
+    "complexity": "Beginner"
+}, {
+    "id": 155,
+    "title": "Android Monetization: 10 Ways to Get Started",
+    "description": "You hear about major Android monetizations problems way too often? The public stats are (still) showing a huge gap between the revenues generated on the Android and iOS platforms? The good news is it’s all not as bad you can imagine, and there are many ways to kick start your financial world domination based solely on your awesome Android apps and smart monetization strategies. In our session, we’ll cover 10 most popular techniques incl. advertising models, partnerships, subscriptions, in-app purchases and more.",
+    "subtype": "presentation",
+    "speakers": [
+        52
+    ],
+    "language": "en",
+    "complexity": "Beginner"
+}, {
+    "id": 156,
+    "title": "Android 101: Introduction to Android Workshop",
+    "description": "Our workshop has two sessions. First session is a presentation which will give short and interesting infos about Android. At the second session, we will get into action and we develop our first application which is beginner level on Android Studio.",
+    "subtype": "workshop",
+    "speakers": [
+        53,
+        54
+    ],
+    "language": "tr"
+}, {
+    "id": 157,
+    "title": "Android Operating Systems on Philips Smart TV’s",
+    "description": "Android Operating Systems on Philips Smart TV’s, differentiators with other televisions, programming and applications on Smart TV’s.",
+    "subtype": "presentation",
+    "speakers": [
+        57
+    ],
+    "language": "en"
+}, {
+    "id": 158,
+    "title": "Android and the Seven Dwarfs",
+    "description": "Android is a great and terrific OS. Java based programming environment has offered an easy learning curve, great adaptation but also brought its own pitfalls and problems. The httpclient shipped with android is buggy and outdated, Java's programming model does not encourage developers to use separate threads for non-ui related tasks, use of anonymous inner classes for listeners create a burden and ugly code and of course this list goes on. This talk will focus on seven great opensource libraries which do fix Android's programming model, the way jquery fixes javascript. The libraries below will be covered with example code, advantages, disadvantages, internals and when to use them.<br>Doc: Butterknife<br>Sneezy: Dagger<br>Bashful: Volley/OkHttp<br>Sleepy: GreenBus/Otto<br>Dopey: GreenDao/OrmLite<br>Happy: Priority-JobQueue<br>Grumpy: Retrofit",
+    "subtype": "presentation",
+    "speakers": [
+        55,
+        56
+    ],
+    "language": "tr"
+}, {
+    "id": 159,
+    "title": "Microsoft Azure cloud services for Android Applications",
+    "description": "Do you know that you can develop Android, iOS, Windows applications that use Microsoft Azure (Microsoft’s cloud platform) services? Even developing applications in C/C++, Java, Python, Rubby etc.  by using our open source SDKs? In this session we will introduce the development stages of an Android application from scratch that uses Microsoft Cloud services.",
+    "subtype": "presentation",
+    "speakers": [
+        59
+    ],
+    "language": "tr"
+}, {
+    "id": 160,
+    "title": "Why am I Supposed to be a Programmer?",
+    "description": "Turkey's internet/media market needs qualified programmers.Because of this, all companies look for programmers.So, why am I supposed to be a programmer? For a better career? To make more money? For fun?",
+    "subtype": "presentation",
+    "speakers": [
+        61
+    ],
+    "language": "tr"
+}, {
+    "id": 161,
+    "title": "General Mobile",
+    "description": "",
+    "subtype": "presentation",
+    "speakers": [
+        62
+    ],
+    "language": "tr"
+}, {
+    "id": 162,
+    "title": "Mobile App Development with Python-kivy",
+    "description": "This talk basically will be about mobile application programming with python language with the help of kivy framework. For python fans, it makes relasing app quick and platform free. My aim is to talk about its advantages and disadvantages compared to Android sdk.<br>- Why has such project been started?<br>- What is the rate of performance of an app developed by kivy?<br>- How compatible with android devices? What characteristic does it show on these devices?<br>- In which case, should we use it?<br>- Where to start?<br>- What kind of obstacles did I face while developing my app with kivy? How did I solve it?<br>My App URL on google play: https://play.google.com/store/apps/details?id=com.baymustache.bazaar",
+    "subtype": "presentation",
+    "speakers": [
+        63
+    ],
+    "language": "tr"
+}, {
+    "id": 163,
+    "title": "Using Second Hand Smart Phones in House Security",
+    "description": "Second Hand smart phones with gsm support and with the development of necessary software through sensors on them with Arduino, beside they are adapted to smart home Technologies, the software and a few Project examples aiming to provide security of houses.",
+    "subtype": "presentation",
+    "speakers": [
+        64
+    ],
+    "language": "tr"
+}, {
+    "id": 164,
+    "title": "Gift Draws - in All Rooms",
+    "description": "During sessions, attendees will be provided session codes. Attendees will submit these codes during sessions using their smart phones. There will be a draw at the end of the event and winners will be announced. Attendees should be present in this session and have a registration card in order to get the gift. Gifts will be announced soon.",
+    "subtype": "presentation",
+    "speakers": [],
+    "language": "tr"
+}, {
+    "id": 165,
+    "title": "Developing robust mobile enterprise solutions with Samsung B2B SDKs",
+    "description": "As the demand for mobile enterprise solutions grows, new challenges in privacy, manageability, and security also emerge. Samsung mobile devices are equipped with a suite of mature out-of-the-box B2B APIs. Learn how to unleash the power of these APIs to build a new generation of mobile enterprise solutions with Samsung B2B SDKs.",
+    "subtype": "presentation",
+    "speakers": [
+        58
+    ],
+    "language": "en"
+}, {
+    "id": 166,
+    "title": "Getting started with Samsung B2B SDKs",
+    "description": "Learn some practical tips that will help you get going with Samsung B2B SDKs in no time. We’ll show you where to get the SDKs and how to start coding your way into the boundless opportunities of mobile enterprise solutions.",
+    "subtype": "workshop",
+    "speakers": [
+        71
+    ],
+    "language": "tr"
+}, {
+    "id": 167,
+    "title": "Develop Fast Multi Device Apps Fast",
+    "description": "In this demo-oriented session Paweł is going to show how you can quickly build natively compiled, multi-device apps from the same codebase for iOS, Android, Windows and Mac.",
+    "subtype": "presentation",
+    "speakers": [
+        65
+    ],
+    "language": "en"
+}, {
+    "id": 168,
+    "title": "Building proximity aware apps with Appmethod and beacons",
+    "description": "Beacons are the next big thing in mobile app development. In this session we are going to see how easy it is to use Appmethod for adding proximity-awareness to your native, mobile Android and iOS apps.",
+    "subtype": "presentation",
+    "speakers": [
+        65
+    ],
+    "language": "en"
+}, {
+    "id": 169,
+    "title": "Microsoft’s Universal Cloud Platform",
+    "description": "In this session we will cover how Microsoft makes developers life’s easier by providing universal cloud platform and universal app development tools.  You can build services and apps on Microsoft Azure for any platform Android/iOS/Windows using any technologies Microsoft or Open Source. O365 is becoming the most popular cloud base productivity suite on Android/iOS/Windows. And finally you can now build truly universal mobile apps for all 3 platform using our development tools.",
+    "subtype": "presentation",
+    "speakers": [
+        66
+    ],
+    "language": "tr"
+}, {
+    "id": 170,
+    "title": "Power up App Performance with IBM MobileFirst Platform Analytics",
+    "description": "IBM MobileFirst Operational Analytics collects data about applications, adapters, devices, and logs to give a high-level view of the client interaction with the IBM MobileFirst Platform Server and to enable problem detection.",
+    "subtype": "presentation",
+    "speakers": [
+        68
+    ],
+    "language": "tr"
+}, {
+    "id": 171,
+    "title": "Let's go to ATEITH",
+    "description": "Car-sharing app for students of the Alexander Technological Institute",
+    "subtype": "presentation",
+    "speakers": [
+        67
+    ],
+    "language": "en"
+}, {
+    "id": 172,
+    "title": "Importance of micro-interactions",
+    "description": "Importance of micro-interactions",
+    "subtype": "presentation",
+    "speakers": [
+        29
+    ],
+    "language": "en"
+}, {
+    "id": 173,
+    "title": "Entrepreneurship Ecosystem in Ankara",
+    "description": "Entrepreneurship Ecosystem in Ankara,supports,needs and role of Ankara Development Agency.",
+    "subtype": "presentation",
+    "speakers": [
+        69
+    ],
+    "language": "tr"
+}, {
+    "id": 174,
+    "title": "REST API Design - Best Practices",
+    "description": "REST Api isn't only about putting nouns in your URL structure. You have to think about security, authorization, resources, queries, pagination, HTTP Caching. In this presentation we will discuss these topics and I will share my experiences as a Backend Developer and also Android Developer.",
+    "subtype": "presentation",
+    "speakers": [
+        70
+    ],
+    "language": "tr"
+}, {
+    "id": 175,
+    "title": "Dream Talks - Room A",
+    "description": "Nearly 10 speakers will share their dreams with attendees in small presentations.",
+    "subtype": "presentation",
+    "speakers": null,
+    "language": "tr"
+}, {
+    "id": 176,
+    "title": "Dream Talks Winners - Room A",
+    "description": "Dream Talk winner will be announced and will be given prize.",
+    "subtype": "presentation",
+    "speakers": null,
+    "language": "tr"
+}]

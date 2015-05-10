@@ -1,0 +1,70 @@
+<polymer-element name="app-data" attributes="scheduleResponse sessionsResponse speakersResponse">
+    <template>
+        <core-ajax auto url="../data/schedule.json" handleAs="json" response="{{schedule}}"></core-ajax>
+        <core-ajax auto url="../data/sessions.json" handleAs="json" response="{{sessions}}"></core-ajax>
+        <core-ajax auto url="../data/speakers.json" handleAs="json" response="{{speakers}}"></core-ajax>
+    </template>
+    <script>
+    (function() {
+        Polymer('app-data', {
+            created: function() {
+                this.scheduleResponse = [];
+                this.sessionsResponse = [];
+                this.speakersResponse = [];
+            },
+            observe: {
+                'speakers sessions schedule': 'buildSchedule'
+            },
+            buildSchedule: function() {
+                if (this.speakers && this.sessions && this.schedule) {
+                    for (var i in this.schedule) {
+                        var day = this.schedule[i];
+                        for (var j in day.timeslots) {
+                            var timeslot = day.timeslots[j];
+                            for (var k in timeslot.sessions) {
+                                var sessionId = timeslot.sessions[k];
+                                this.schedule[i].timeslots[j].sessions[k] = this.getSession(sessionId, timeslot.startTime, timeslot.endTime, day.tracks[k]);
+                                this.schedule[i].timeslots[j].sessions[k].startTime = timeslot.startTime;
+                                this.schedule[i].timeslots[j].sessions[k].startTime = timeslot.startTime;
+                                this.schedule[i].timeslots[j].sessions[k].dateReadable = day.dateReadable;
+                                this.schedule[i].timeslots[j].sessions[k].track = day.tracks[k];
+                            }
+                        }
+                    }
+                    this.scheduleResponse = this.schedule;
+                    this.sessionsResponse = this.sessions;
+                    this.speakersResponse = this.speakers;
+                }
+            },
+            getSession: function(sessionId, startTime, endTime, track) {
+                for (var i in this.sessions) {
+                    var session = this.sessions[i];
+                    if (sessionId == session.id) {
+                        if (session.speakers) {
+                            for (var j in session.speakers) {
+                                var speakerId = session.speakers[j];
+                                session.speakers[j] = this.getSpeaker(speakerId);
+                            }
+                        }
+                        session.startTime = startTime;
+                        session.endTime = endTime;
+                        if (!session.service) {
+                            session.track = track;
+                        }
+                        this.sessions[i] = session;
+                        return session;
+                    }
+                }
+            },
+            getSpeaker: function(speakerId) {
+                for (var i in this.speakers) {
+                    var speaker = this.speakers[i];
+                    if (speakerId == speaker.id) {
+                        return speaker;
+                    }
+                }
+            }
+        });
+    })();
+    </script>
+</polymer-element>

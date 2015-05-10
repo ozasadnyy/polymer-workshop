@@ -1,0 +1,35 @@
+<link rel="import" href="../elements/speaker-info/speaker-info.html">
+<link rel="import" href="../elements/app-layout/app-layout.html">
+<link rel="import" href="../elements/app-data.html">
+<polymer-element name="speakers-page">
+    <template>
+        <link rel="stylesheet" href="speakers-page.css">
+        <app-data id="data" speakersResponse="{{speakers}}"></app-data>
+        <app-layout selected="speakers">
+            <core-list id="list" data="{{speakers}}" fit>
+                <template>
+                    <div class="row" on-tap="{{openInfo}}" layout horizontal center>
+                        <template if="{{model}}">
+                            <core-image src="images/speakers/{{model.thumbnailUrl}}" preload sizing="cover" placeholder="/images/drawer-image.png">
+                            </core-image>
+                            <div class="name" flex>{{model.name}} {{model.surname}}</div>
+                        </template>
+                    </div>
+                </template>
+            </core-list>
+        </app-layout>
+        <template if="{{opened}}">
+            <speaker-info speaker="{{selectedSpeaker}}" opened="{{opened}}" hidden?="{{!opened}}" fade-scale></speaker-info>
+        </template>
+    </template>
+    <script>
+    (function() {
+        Polymer('speakers-page', {
+            openInfo: function(e, detail, sender) {
+                this.selectedSpeaker = e.target.templateInstance.model.model;
+                this.opened = true;
+            }
+        });
+    })();
+    </script>
+</polymer-element>

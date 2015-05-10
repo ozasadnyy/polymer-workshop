@@ -1,0 +1,34 @@
+:host {
+    display: block;
+    overflow: auto;
+}
+
+core-list {
+    height: 100%;
+    position: relative;
+    box-sizing: border-box;
+    overflow-y: auto;
+}
+
+.row {
+    padding: 16px 16px;
+    cursor: pointer;
+}
+
+.row core-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.row .name {
+    margin-left: 10px;
+}
+
+@media screen and (min-width: 640px) {
+    :host {
+        background-color: #eeeeee;
+        width: 640px;
+        margin: 64px auto;
+    }
+}

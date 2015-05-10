@@ -1,0 +1,56 @@
+<polymer-element name="app-layout" attributes="selected">
+    <template>
+        <link rel="stylesheet" type="text/css" href="app-layout.css">
+        <core-drawer-panel>
+            <!-- Drawer -->
+            <core-header-panel drawer mode="seamed">
+                <!-- Drawer Toolbar -->
+                <core-toolbar class="tall image-section">
+                </core-toolbar>
+                <!-- Drawer Content -->
+                <core-menu selected="{{selectedItem()}}">
+                    <paper-item label="Program">
+                        <a href="#/">
+                            <core-icon icon="event"></core-icon>
+                            Program
+                        </a>
+                    </paper-item>
+                    <paper-item label="Speakers">
+                        <a href="#/speakers">
+                            <core-icon icon="account-circle"></core-icon>
+                            Speakers
+                        </a>
+                    </paper-item>
+                </core-menu>
+            </core-header-panel>
+            <!-- Main -->
+            <core-header-panel id="headerPanel" mode="seamed" main flex>
+                <!-- Main Toolbar -->
+                <core-toolbar>
+                    <paper-icon-button icon="menu" core-drawer-toggle></paper-icon-button>
+                    <span flex>ADD 2015</span>
+                    <paper-icon-button icon="info"></paper-icon-button>
+                </core-toolbar>
+                <!-- Main Content -->
+                <div layout horizontal center-center fit>
+                    <content>
+                        <!-- your main content shows up here -->
+                    </content>
+                </div>
+            </core-header-panel>
+        </core-drawer-panel>
+    </template>
+    <script>
+    (function() {
+        Polymer('app-layout', {
+            selectedItem: function() {
+                if(this.selected == 'program') {
+                    return 0;
+                } else if(this.selected == 'speakers') {
+                    return 1;
+                } 
+            }
+        });
+    })();
+    </script>
+</polymer-element>

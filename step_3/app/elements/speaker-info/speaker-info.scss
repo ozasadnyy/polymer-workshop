@@ -1,0 +1,108 @@
+:host {
+    position: fixed !important;
+    background-color: #FFFFFF;
+}
+
+core-scroll-header-panel::shadow #condensedHeaderBg {
+    background-color: #78A842;
+}
+
+core-toolbar {
+    color: #F1F1F1;
+    background-color: transparent;
+}
+
+core-toolbar a {
+    color: #F1F1F1;
+}
+
+[content] {
+    background: #ffffff;
+}
+
+#title {
+    -webkit-transform-origin: 0;
+    transform-origin: 0;
+    font-size: 40px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card-header {
+    height: 260px;
+    background: url(/images/drawer-image.png);
+    background-size: cover;
+    color: #FFFFFF;
+    position: relative;
+}
+
+.card-header .single-line {
+    position: absolute;
+    bottom: 16px;
+    left: 16px;
+}
+
+.card-header core-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.card-header .card-name {
+    color: #FFFFFF;
+    margin-left: 16px;
+    font-size: 24px;
+}
+
+.group {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 8px 0;
+    position: relative;
+}
+
+.item {
+    padding: 10px 72px;
+    color: rgb(102, 102, 102);
+}
+
+.item core-icon {
+    position: absolute;
+    left: 16px;
+    top: 24px;
+    color: rgb(33, 33, 33);
+}
+
+.item a {
+    color: rgb(33, 33, 33);
+    text-decoration: none;
+}
+
+.double-line-1 {
+    margin-top: 5px;
+    margin-bottom: 6px;
+}
+
+.double-line-2 {
+    font-size: 13px;
+    line-height: 13px;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+@media screen and (min-width: 640px) {
+    :host {
+        background-color: #eeeeee;
+        position: absolute !important;
+    }
+    [content] {
+        width: 640px;
+        margin: 64px auto;
+    }
+    core-toolbar {
+        color: #F1F1F1;
+        background-color: #78A842;
+    }
+    #title {
+        font-size: 1.3em;
+    }
+}
